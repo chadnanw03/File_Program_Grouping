@@ -1,0 +1,732 @@
+File Name: All_Inventory - Keystone Medium.xlsx
+Sheet Name: Online PGM
+Start-End Column: (1, 61)
+
+Files 59:
+ Index(['AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS',
+       'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'DUPP', 'ERRS', 'EXPS',
+       'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'LOOK',
+       'MATX', 'MESS', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS',
+       'REGI', 'RINX', 'RMAS', 'RMOF', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SDSI',
+       'SIGN', 'SMIF', 'SMOF', 'SORT', 'SREC', 'STAT', 'TERM', 'TTAB', 'WHAT',
+       'XBBH', 'XLOG', 'FMIF', 'LNID', 'HOUTA'],
+      dtype='object')
+
+Programs 475:
+ Index(['ACUSTA', 'ADJUST', 'ADVP', 'AM790XB', 'AM795XB', 'AMSGSETC', 'ARCANC',
+       'ARCV', 'ARKEYS', 'ARSTOR',
+       ...
+       'WARQ', 'WARX', 'WHAL', 'WHOAMI', 'WHOMRU', 'WRTMSG', 'XMTFED', 'XSCR',
+       'XUSL', 'ZAP'],
+      dtype='object', name='Component\n Name', length=475)
+
+----------------------------------------------------------------------------------------------------
+
+
+=== 1. Sorted Pairwise File Commonality Matrix ===
+
+       PAYS  FPAY  BANK  CHKS  RECS  EXPS  FEXP  FCHK  XLOG  CARR  AMTS  MISC  MICY  SREC  FMIS  ...  DUPP  SMOF  HIST  TTAB  CMOF  SACC  WHAT  RMOF  LOOK  BACC  REGI  MINC  RMAS  HOUTA  LNID
+PAYS      0    46    21    41    44    39    29    27    15    12    18    20     9    18    18  ...     1     1     2     0     1     1     1     1     0     1     1     0     0      0     0
+FPAY     46     0    18    32    24    28    32    30    13    11    11    17     7     9    18  ...     1     1     3     0     1     0     0     1     0     2     1     0     0      0     0
+BANK     21    18     0     9    14    10     7     6     9     9    15     4    18    10     4  ...     2     1     2     1     1     3     3     0     2     4     0     1     0      0     0
+CHKS     41    32     9     0    25    27    23    27    11     8    12    19     1    10    16  ...     1     1     2     0     1     0     0     1     0     1     2     0     0      0     0
+RECS     44    24    14    25     0    27    18    14    10     8    14    12     6    13    10  ...     1     1     1     0     1     0     0     1     0     1     1     0     0      0     0
+EXPS     39    28    10    27    27     0    28    20     7     6     8    16     2    11    13  ...     1     1     1     0     1     0     0     1     1     2     1     0     0      0     0
+FEXP     29    32     7    23    18    28     0    25     7     6     6    13     0     5    14  ...     1     1     2     0     1     0     0     1     0     2     1     0     0      0     0
+FCHK     27    30     6    27    14    20    25     0     7     5     4    17     0     4    18  ...     1     1     2     0     1     0     0     1     0     1     1     0     0      0     0
+XLOG     15    13     9    11    10     7     7     7     0    27     5     7    11     6     6  ...     0     1     1     1     0     0     0     0     0     0     0     1     0      1     0
+CARR     12    11     9     8     8     6     6     5    27     0     4     6     9     5     5  ...     0     2     1     2     1     0     0     1     0     0     0     1     0      2     0
+AMTS     18    11    15    12    14     8     6     4     5     4     0     4    10    10     4  ...     2     0     3     0     0     1     1     0     0     1     1     0     0      0     0
+MISC     20    17     4    19    12    16    13    17     7     6     4     0     0     7    20  ...     0     1     1     0     1     0     0     1     0     0     1     0     0      0     0
+MICY      9     7    18     1     6     2     0     0    11     9    10     0     0     7     0  ...     3     0     0     1     1     0     0     0     2     0     0     1     0      0     0
+SREC     18     9    10    10    13    11     5     4     6     5    10     7     7     0     4  ...     5     0     1     0     0     0     0     0     3     1     0     0     0      0     0
+FMIS     18    18     4    16    10    13    14    18     6     5     4    20     0     4     0  ...     0     1     1     0     1     0     0     1     0     0     1     0     0      0     0
+CURY     11     8    11     6     7     5     6     5     4     6    10     4     2     6     4  ...     0     1     3     4     0     5     5     0     0     2     2     2     0      0     0
+CMIF     12     7    17     2     5     3     2     3     5     7     4     2    18     2     3  ...     0     2     0     1     2     0     0     1     0     0     0     0     0      0     0
+BADD      5     3    19     3     3     2     1     1     8     9     7     1     6     3     1  ...     0     0     1     7     0     5     8     0     2     2     0     1     2      0     0
+RPAY     14    15     5    15     7    10    10    15     4     3     3    12     1     2    12  ...     1     1     1     0     1     0     0     1     0     0     1     0     0      0     0
+TERM      6     6    10     2     3     2     2     2     9     8     2     2     7     5     2  ...     3     0     0     0     0     0     0     0     2     0     0     1     0      0     1
+FMIF      7     8    10     3     5     1     2     2     5     8     5     1    10     1     2  ...     0     2     0     1     2     0     0     1     0     0     0     0     0      0     0
+ORDS     13    10     3    13     9    11     8     9     6     4     3     9     0     3     7  ...     1     2     0     1     2     0     0     1     0     0     0     0     0      0     0
+ARCH      9     5     9     7     8     7     4     4    12    10     1     5     8     5     2  ...     1     0     0     0     0     0     0     0     1     0     1     0     0      0     0
+CTOB      5    10    10     3     2     3     2     2     4     7     7     2     5     2     2  ...     0     1     2     0     1     0     0     1     0     0     0     0     0      0     0
+CAMS      8     8    10     4     6     4     5     3     2     2     8     4     6     5     4  ...     2     0     0     0     0     0     0     0     0     1     0     0     0      0     0
+SIGN      6     4     7     2     3     1     1     1     6     5     2     1     3     1     1  ...     0     2     0     1     1     2     0     0     0     0     0     1     0      0     1
+BTOC      5     8     5     2     1     2     2     2     5     6     1     2     4     2     2  ...     0     1     1     0     1     0     0     1     0     0     0     0     0      0     0
+SMIF      5     4     5     2     3     1     1     1     6     5     1     1     8     2     1  ...     0     3     0     1     2     0     0     2     0     0     0     0     0      0     0
+AMTM      7     6     7     3     4     3     3     2     0     0    17     3     2    10     3  ...     2     0     2     0     0     0     0     0     0     1     1     0     0      0     0
+STAT      7     5     5     2     4     1     1     1     6     5     1     1     4     2     1  ...     0     1     0     1     1     0     0     0     0     0     1     0     0      0     0
+ERRS      5     3     3     3     5     2     2     2     7     5     3     2     8     0     2  ...     0     2     0     0     1     0     0     2     0     0     0     0     0      0     0
+MATX      6     5     5     2     3     4     3     2     4     3     2     1     5     9     1  ...     4     0     0     0     0     0     0     0     2     0     0     0     0      0     0
+SADD      0     0     7     0     0     1     0     0     8     4     2     0     3     2     0  ...     0     0     0     1     0     6     7     0     2     1     0     2     1      0     0
+SDSI      4     5     5     1     1     1     1     1     7     6     0     1     4     2     1  ...     0     1     0     0     0     0     0     0     0     0     0     1     0      0     1
+AMTP      4     3     6     2     3     0     2     2     1     2    12     2     2     6     2  ...     1     0     1     0     0     0     0     0     0     0     0     0     0      0     0
+HOUT      6     6     1     5     3     2     3     4     5     7     4     2     0     2     2  ...     0     0     2     0     0     0     0     0     0     0     0     0     0      2     0
+LOGG      4     2     4     3     4     3     2     2     4     5     2     3     1     2     2  ...     0     1     0     1     1     0     0     0     0     0     0     1     0      0     0
+RPTS      4     1     5     1     7     1     1     1     0     1     2     1     6     0     1  ...     0     2     0     0     1     0     0     2     0     0     1     0     0      0     0
+SORT      6     4     5     4     5     3     2     2     1     0     4     1     3     6     1  ...     2     0     0     0     0     0     0     0     2     0     0     0     0      0     0
+RINX      1     2     4     0     2     0     1     1     4     4     3     0     4     3     1  ...     3     0     0     0     0     0     0     0     2     0     0     0     0      0     0
+HOLI      4     4     4     0     1     0     0     0     5     5     1     0     4     2     0  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+MESS      3     1     6     1     3     1     1     1     0     1     2     1     6     0     1  ...     0     2     0     0     1     0     0     2     0     0     0     0     0      0     0
+XBBH      2     2     4     2     1     3     2     2     1     1     3     1     0     3     1  ...     0     0     1     0     0     5     1     0     1     1     0     0     0      0     0
+MUSE      0     0     2     0     1     0     0     0     1     1     0     0     2     2     0  ...     2     1     0     5     1     0     1     0     2     0     1     0     0      0     0
+DUPP      1     1     2     1     1     1     1     1     0     0     2     0     3     5     0  ...     0     0     0     0     0     0     0     0     2     0     0     0     0      0     0
+SMOF      1     1     1     1     1     1     1     1     1     2     0     1     0     0     1  ...     0     0     0     1     2     0     0     2     0     0     0     0     0      0     0
+HIST      2     3     2     2     1     1     2     2     1     1     3     1     0     1     1  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+TTAB      0     0     1     0     0     0     0     0     1     2     0     0     1     0     0  ...     0     1     0     0     1     0     2     0     0     0     0     0     2      0     0
+CMOF      1     1     1     1     1     1     1     1     0     1     0     1     1     0     1  ...     0     2     0     1     0     0     0     1     0     0     0     0     0      0     0
+SACC      1     0     3     0     0     0     0     0     0     0     1     0     0     0     0  ...     0     0     0     0     0     0     4     0     0     1     0     0     0      0     0
+WHAT      1     0     3     0     0     0     0     0     0     0     1     0     0     0     0  ...     0     0     0     2     0     4     0     0     0     0     0     0     0      0     0
+RMOF      1     1     0     1     1     1     1     1     0     1     0     1     0     0     1  ...     0     2     0     0     1     0     0     0     0     0     0     0     0      0     0
+LOOK      0     0     2     0     0     1     0     0     0     0     0     0     2     3     0  ...     2     0     0     0     0     0     0     0     0     1     0     0     0      0     0
+BACC      1     2     4     1     1     2     2     1     0     0     1     0     0     1     0  ...     0     0     0     0     0     1     0     0     1     0     0     0     0      0     0
+REGI      1     1     0     2     1     1     1     1     0     0     1     1     0     0     1  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+MINC      0     0     1     0     0     0     0     0     1     1     0     0     1     0     0  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+RMAS      0     0     0     0     0     0     0     0     0     0     0     0     0     0     0  ...     0     0     0     2     0     0     0     0     0     0     0     0     0      0     0
+HOUTA     0     0     0     0     0     0     0     0     1     2     0     0     0     0     0  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+LNID      0     0     0     0     0     0     0     0     0     0     0     0     0     0     0  ...     0     0     0     0     0     0     0     0     0     0     0     0     0      0     0
+
+[59 rows x 59 columns]
+
+----------------------------------------------------------------------------------------------------
+
+
+=== 2. Files Grouped by Total Commonality Score (Descending) ===
+
+PAYS     536
+FPAY     451
+BANK     368
+CHKS     363
+RECS     355
+EXPS     328
+FEXP     292
+FCHK     285
+XLOG     276
+CARR     261
+AMTS     246
+MISC     232
+MICY     220
+SREC     219
+FMIS     217
+CURY     211
+CMIF     185
+BADD     175
+RPAY     174
+TERM     168
+FMIF     159
+ORDS     158
+ARCH     156
+CTOB     140
+CAMS     124
+SIGN     122
+BTOC     117
+SMIF     113
+AMTM     112
+STAT     107
+ERRS     103
+MATX      99
+SADD      94
+SDSI      94
+AMTP      91
+HOUT      89
+LOGG      86
+RPTS      77
+SORT      74
+RINX      74
+HOLI      68
+MESS      68
+XBBH      64
+MUSE      50
+DUPP      43
+SMOF      43
+HIST      37
+TTAB      35
+CMOF      34
+SACC      33
+WHAT      33
+RMOF      27
+LOOK      27
+BACC      26
+REGI      19
+MINC      13
+RMAS       5
+HOUTA      5
+LNID       3
+dtype: int64
+
+----------------------------------------------------------------------------------------------------
+
+
+=== 3. Programs and Files Used (Sorted by File Count Descending) ===
+
+BINF - ['BTOC', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIF', 'FMIS', 'FPAY', 'MESS', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RMOF', 'RPAY', 'RPTS', 'SMIF', 'SMOF']
+BKIN - ['AMTS', 'BADD', 'BANK', 'BTOC', 'CARR', 'CHKS', 'CTOB', 'CURY', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOUT', 'MISC', 'PAYS', 'RPAY', 'XBBH', 'XLOG']
+BARB - ['BANK', 'BTOC', 'CARR', 'CMIF', 'CTOB', 'FMIF', 'FPAY', 'HOLI', 'MATX', 'MICY', 'PAYS', 'SDSI', 'SIGN', 'SMIF', 'SREC', 'STAT', 'TERM', 'XLOG']
+DSLOG2 - ['CARR', 'CHKS', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HOUT', 'LOGG', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RPAY', 'SDSI', 'XLOG']
+TEST - ['BANK', 'BTOC', 'CARR', 'CMIF', 'CTOB', 'FMIF', 'FPAY', 'HOLI', 'MICY', 'PAYS', 'SDSI', 'SIGN', 'STAT', 'TERM', 'XLOG']
+TUTI - ['BANK', 'BTOC', 'CARR', 'CMIF', 'FPAY', 'HOLI', 'MATX', 'MICY', 'PAYS', 'SDSI', 'SMIF', 'SREC', 'STAT', 'TERM', 'XLOG']
+BUSY - ['AMTS', 'CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RPAY', 'TERM', 'XLOG']
+DUTI - ['CARR', 'CMIF', 'FCHK', 'FEXP', 'FMIF', 'FMIS', 'FPAY', 'LOGG', 'PAYS', 'RECS', 'RINX', 'SIGN', 'TERM', 'XLOG']
+PORL - ['ARCH', 'BANK', 'CAMS', 'CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RECS', 'RPAY', 'SORT']
+TESTKK - ['BANK', 'BTOC', 'CARR', 'CMIF', 'CTOB', 'FMIF', 'FPAY', 'HOLI', 'MICY', 'SDSI', 'SIGN', 'STAT', 'TERM', 'XLOG']
+WARP - ['BANK', 'CAMS', 'CHKS', 'DUPP', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'MATX', 'ORDS', 'PAYS', 'RECS', 'RPAY', 'SREC']
+HOSH - ['AMTM', 'AMTP', 'AMTS', 'CHKS', 'CURY', 'FCHK', 'FEXP', 'FPAY', 'HIST', 'HOUT', 'PAYS', 'RECS', 'SREC']
+QOLP - ['CAMS', 'CARR', 'CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MATX', 'MISC', 'PAYS', 'SREC', 'XLOG']
+DETAIL - ['AMTM', 'AMTP', 'BANK', 'CURY', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RECS', 'SREC']
+FIP - ['AMTS', 'ARCH', 'BANK', 'CAMS', 'ERRS', 'FMIF', 'MESS', 'MICY', 'PAYS', 'RECS', 'RPTS', 'SMIF']
+PAAUTX - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RPAY', 'STAT']
+PVERIF - ['AMTS', 'CHKS', 'CURY', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'ORDS', 'PAYS', 'RPAY']
+QOLA - ['BANK', 'CMIF', 'CMOF', 'FMIF', 'LOGG', 'MUSE', 'ORDS', 'SIGN', 'SMIF', 'SMOF', 'STAT', 'TTAB']
+ARKEYS - ['ARCH', 'CARR', 'CHKS', 'EXPS', 'LOGG', 'MISC', 'ORDS', 'PAYS', 'RECS', 'SREC', 'XLOG']
+ARSTOR - ['ARCH', 'CARR', 'CHKS', 'EXPS', 'LOGG', 'MISC', 'ORDS', 'PAYS', 'RECS', 'SREC', 'XLOG']
+BINI - ['AMTM', 'AMTP', 'AMTS', 'BANK', 'CAMS', 'DUPP', 'MATX', 'MICY', 'RINX', 'SREC', 'TERM']
+PAYTOC - ['AMTM', 'AMTS', 'BACC', 'BANK', 'CAMS', 'CURY', 'EXPS', 'FEXP', 'FPAY', 'PAYS', 'RECS']
+AMSGSETC - ['AMTP', 'AMTS', 'BANK', 'CARR', 'CMIF', 'CTOB', 'FMIF', 'LOGG', 'MICY', 'RINX']
+DLPAYS - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'REGI', 'RPAY']
+MT101XL - ['CHKS', 'CURY', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RECS']
+VUPD - ['ARCH', 'DUPP', 'LOOK', 'MATX', 'MICY', 'MUSE', 'RINX', 'SORT', 'SREC', 'TERM']
+CMIP - ['AMTS', 'BANK', 'CMIF', 'ERRS', 'MESS', 'MICY', 'PAYS', 'RECS', 'RPTS']
+DELPOC - ['CHKS', 'CMIF', 'EXPS', 'FCHK', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RPAY']
+DSPAYS - ['ARCH', 'BANK', 'CHKS', 'FCHK', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RPAY']
+EVENTS - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RECS']
+FMIP - ['AMTS', 'BADD', 'CHKS', 'ERRS', 'FMIF', 'FPAY', 'PAYS', 'RECS', 'XLOG']
+MT090XL - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RECS']
+OFAN - ['BADD', 'BANK', 'CARR', 'CHKS', 'FMIF', 'FPAY', 'PAYS', 'RECS', 'SMIF']
+OFAX - ['CHKS', 'FCHK', 'FPAY', 'HOUT', 'ORDS', 'PAYS', 'RECS', 'RPAY', 'XLOG']
+REOFAC - ['AMTS', 'CAMS', 'CARR', 'CHKS', 'FEXP', 'FPAY', 'PAYS', 'RECS', 'XLOG']
+VDUM - ['DUPP', 'LOOK', 'MATX', 'MICY', 'MUSE', 'RINX', 'SORT', 'SREC', 'TERM']
+BCS - ['BANK', 'CHKS', 'EXPS', 'ORDS', 'PAYS', 'RECS', 'SIGN', 'TERM']
+DBAUTX - ['BANK', 'CURY', 'LOGG', 'MINC', 'SADD', 'SDSI', 'SIGN', 'TERM']
+DSALOG - ['ARCH', 'CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'PAYS', 'XLOG']
+GENT - ['AMTS', 'BANK', 'CHKS', 'CTOB', 'EXPS', 'FPAY', 'PAYS', 'RECS']
+KY070XL - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'PAYS', 'RECS', 'XBBH']
+LOOKUP - ['BACC', 'BADD', 'BANK', 'EXPS', 'LOOK', 'SADD', 'SREC', 'XBBH']
+MDDA - ['AMTM', 'AMTP', 'AMTS', 'BADD', 'CURY', 'SADD', 'SREC', 'XBBH']
+PREPAI - ['CHKS', 'FCHK', 'FMIS', 'FPAY', 'MISC', 'ORDS', 'PAYS', 'RPAY']
+SLOL - ['ARCH', 'CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'PAYS', 'SORT']
+VALGEN - ['ARCH', 'BADD', 'BANK', 'CAMS', 'CURY', 'PAYS', 'RECS', 'RPTS']
+WARM - ['AMTP', 'AMTS', 'BANK', 'CMIF', 'CTOB', 'FMIF', 'LOGG', 'RINX']
+ADVP - ['ARCH', 'CHKS', 'EXPS', 'MISC', 'PAYS', 'RECS', 'SREC']
+CARL - ['ARCH', 'BADD', 'BANK', 'CARR', 'RINX', 'SADD', 'XLOG']
+CASSUM - ['AMTM', 'AMTP', 'AMTS', 'CURY', 'FPAY', 'HOUT', 'PAYS']
+DSERRS - ['CMIF', 'ERRS', 'FMIF', 'MESS', 'MICY', 'RPTS', 'SMIF']
+DSPHON - ['AMTP', 'AMTS', 'CHKS', 'PAYS', 'RECS', 'SORT', 'SREC']
+OBUILD - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'ORDS', 'PAYS']
+PENTRY - ['CHKS', 'FCHK', 'FMIS', 'FPAY', 'MISC', 'PAYS', 'RPAY']
+PROJEC - ['AMTM', 'AMTP', 'AMTS', 'BANK', 'MATX', 'SORT', 'SREC']
+TREL - ['BADD', 'CARR', 'CURY', 'MICY', 'MINC', 'SADD', 'XLOG']
+VALSWI - ['ARCH', 'CURY', 'MUSE', 'RECS', 'REGI', 'RPTS', 'STAT']
+BADL - ['BADD', 'CURY', 'SACC', 'SADD', 'WHAT', 'XBBH']
+BFUN - ['AMTS', 'HOLI', 'PAYS', 'RECS', 'SIGN', 'STAT']
+CANMSG - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'PAYS']
+DSACCT - ['AMTM', 'AMTP', 'AMTS', 'CURY', 'HOUT', 'SORT']
+DSLINI - ['BANK', 'FPAY', 'PAYS', 'RECS', 'SORT', 'SREC']
+ENDDAY - ['AMTM', 'AMTS', 'BANK', 'CTOB', 'FPAY', 'HIST']
+FENQ - ['AMTS', 'BADD', 'BANK', 'CAMS', 'FMIF', 'MICY']
+FORMSG - ['BADD', 'BANK', 'CURY', 'PAYS', 'SACC', 'WHAT']
+MATCHX - ['EXPS', 'FEXP', 'FPAY', 'MATX', 'PAYS', 'RECS']
+MATOFF - ['EXPS', 'FEXP', 'FPAY', 'PAYS', 'RECS', 'SREC']
+MBAD - ['BADD', 'CURY', 'MUSE', 'SADD', 'TTAB', 'WHAT']
+MYNCHK - ['ARCH', 'CARR', 'CURY', 'HOUT', 'STAT', 'XLOG']
+PADISP - ['BACC', 'BANK', 'CHKS', 'FCHK', 'FEXP', 'FPAY']
+PAYTOF - ['AMTM', 'AMTS', 'BANK', 'CAMS', 'FPAY', 'MICY']
+PBUILD - ['CHKS', 'EXPS', 'FCHK', 'FEXP', 'FPAY', 'PAYS']
+PHOL - ['AMTS', 'CHKS', 'PAYS', 'RECS', 'SORT', 'SREC']
+ROLL - ['BANK', 'CMIF', 'EXPS', 'MICY', 'PAYS', 'RECS']
+RPTL - ['ARCH', 'BANK', 'CMIF', 'MESS', 'MICY', 'RPTS']
+RU13 - ['BANK', 'EXPS', 'FPAY', 'PAYS', 'RECS', 'SORT']
+SIP - ['ARCH', 'CARR', 'ERRS', 'MICY', 'SMIF', 'XLOG']
+SOFA - ['CHKS', 'CURY', 'FPAY', 'HOUT', 'PAYS', 'SREC']
+SREL - ['CARR', 'CURY', 'SDSI', 'SIGN', 'SMOF', 'XLOG']
+SWFANE - ['CHKS', 'EXPS', 'MICY', 'PAYS', 'RECS', 'SREC']
+UNBU - ['AMTP', 'AMTS', 'FMIS', 'MISC', 'ORDS', 'XLOG']
+WARX - ['ERRS', 'MESS', 'RMOF', 'RPTS', 'SMIF', 'SMOF']
+WHOAMI - ['BADD', 'BANK', 'CURY', 'SACC', 'SADD', 'WHAT']
+ACUSTA - ['CHKS', 'PAYS', 'RECS', 'STAT', 'XLOG']
+AUTP - ['BTOC', 'CAMS', 'CTOB', 'FPAY', 'RINX']
+BFIL - ['BADD', 'BANK', 'CURY', 'SIGN', 'TERM']
+CADISP - ['BADD', 'CARR', 'HOUT', 'SADD', 'TERM']
+CISS - ['AMTM', 'AMTS', 'CHKS', 'CURY', 'REGI']
+DIP - ['BANK', 'ERRS', 'MESS', 'MICY', 'RPTS']
+DLXORE - ['AMTM', 'AMTS', 'EXPS', 'PAYS', 'RECS']
+DSMESS - ['ARCH', 'BANK', 'CMIF', 'FMIF', 'MESS']
+EREPAI - ['EXPS', 'FEXP', 'FPAY', 'ORDS', 'PAYS']
+FANDEX - ['CURY', 'EXPS', 'PAYS', 'RECS', 'SREC']
+FFPL - ['AMTM', 'AMTS', 'EXPS', 'PAYS', 'SREC']
+MATMAR - ['EXPS', 'FEXP', 'FPAY', 'PAYS', 'RECS']
+MKPA - ['BADD', 'BANK', 'CURY', 'SADD', 'XBBH']
+PAUTHR - ['AMTM', 'AMTS', 'CHKS', 'PAYS', 'SIGN']
+QOLD - ['AMTP', 'AMTS', 'BANK', 'CARR', 'CTOB']
+QOLQ - ['AMTM', 'CAMS', 'FMIS', 'MISC', 'SREC']
+RPDISP - ['CHKS', 'FCHK', 'FEXP', 'FPAY', 'RPAY']
+RTCASH - ['AMTM', 'AMTS', 'BANK', 'SREC', 'XBBH']
+SYNCHK - ['BACC', 'BADD', 'BANK', 'CURY', 'SACC']
+SYNDDA - ['AMTS', 'BADD', 'SACC', 'SADD', 'WHAT']
+TIP - ['ARCH', 'ERRS', 'MICY', 'SMIF', 'XLOG']
+TXIN - ['CARR', 'ERRS', 'MICY', 'SADD', 'XLOG']
+WARQ - ['AMTM', 'CAMS', 'FMIS', 'MISC', 'SREC']
+AUTB - ['BADD', 'BANK', 'CMIF', 'MICY']
+AUTM - ['EXPS', 'MATX', 'PAYS', 'RECS']
+AUTREC - ['CMIF', 'MICY', 'PAYS', 'RECS']
+BCSSTA - ['BTOC', 'CAMS', 'CTOB', 'FPAY']
+BKEX - ['BADD', 'SADD', 'SDSI', 'XLOG']
+CATEST - ['BADD', 'CARR', 'TTAB', 'XLOG']
+COLD1 - ['CARR', 'RECS', 'RINX', 'XLOG']
+CRLOOK1 - ['BADD', 'BANK', 'LOOK', 'SADD']
+DSCARR - ['ARCH', 'CARR', 'TERM', 'XLOG']
+DSEXPS - ['ARCH', 'BANK', 'EXPS', 'FEXP']
+DSLINS - ['BADD', 'BANK', 'CURY', 'SREC']
+DSSUMM - ['AMTM', 'AMTP', 'AMTS', 'CURY']
+DSXLOG - ['ARCH', 'CARR', 'TERM', 'XLOG']
+EENTRY - ['EXPS', 'FEXP', 'FPAY', 'PAYS']
+ENQ - ['BANK', 'CAMS', 'CMIF', 'PAYS']
+ERRL - ['CMIF', 'ERRS', 'FMIF', 'SMIF']
+FELOAD - ['CARR', 'CURY', 'FMIF', 'HOLI']
+FRBC - ['BANK', 'CTOB', 'FPAY', 'MICY']
+LINT - ['AMTS', 'BADD', 'CAMS', 'MICY']
+MATCHS - ['EXPS', 'PAYS', 'RECS', 'SREC']
+MESL - ['BANK', 'CMIF', 'MESS', 'MICY']
+MPBA - ['BADD', 'BANK', 'SADD', 'WHAT']
+MSOP - ['LNID', 'SDSI', 'SIGN', 'TERM']
+MUPBLD - ['BADD', 'CARR', 'CURY', 'HOUT']
+MUSED - ['BADD', 'CARR', 'MUSE', 'TTAB']
+OSAUTX - ['CARR', 'HOUT', 'HOUTA', 'XLOG']
+PSTL - ['BANK', 'CHKS', 'PAYS', 'RECS']
+SIRS - ['ARCH', 'CARR', 'ERRS', 'XLOG']
+TRYVOA - ['AMTM', 'AMTS', 'DUPP', 'SREC']
+TXTEST - ['BADD', 'CURY', 'TTAB', 'WHAT']
+WRTMSG - ['CURY', 'ORDS', 'SIGN', 'TERM']
+XMTFED - ['ARCH', 'FMIF', 'FPAY', 'MICY']
+ARCV - ['ARCH', 'BANK', 'TERM']
+AUXV - ['AMTS', 'BANK', 'CMIF']
+BCOM - ['AMTS', 'CTOB', 'SREC']
+CACOPY - ['ARCH', 'CARR', 'XLOG']
+CLOL - ['ARCH', 'CARR', 'XLOG']
+DAIN - ['CMIF', 'ERRS', 'MICY']
+DBAUTY - ['BADD', 'LOGG', 'TERM']
+DCHP - ['CMIF', 'MICY', 'PAYS']
+DLCARR - ['BANK', 'MUSE', 'XLOG']
+DSBLXS - ['BADD', 'BANK', 'MICY']
+DSUSER - ['MISC', 'SIGN', 'TERM']
+F2DISP - ['BANK', 'RPAY', 'TERM']
+FINDAU - ['BADD', 'RMAS', 'TTAB']
+FRETRN - ['ARCH', 'MICY', 'SREC']
+FRRN - ['BTOC', 'CTOB', 'TERM']
+HOLDON - ['AMTS', 'CHKS', 'PAYS']
+KY009XL - ['SACC', 'SADD', 'XBBH']
+KY011XL - ['SACC', 'SIGN', 'XBBH']
+KY012XL - ['SACC', 'SADD', 'XBBH']
+KY013XL - ['SACC', 'SADD', 'XBBH']
+KY035XL - ['BADD', 'BTOC', 'CTOB']
+LINO - ['MICY', 'SADD', 'XLOG']
+LREL - ['CARR', 'MICY', 'XLOG']
+MBUILD - ['BADD', 'CARR', 'XLOG']
+MCUS - ['BADD', 'SADD', 'WHAT']
+MLOL - ['MICY', 'RECS', 'RPTS']
+MUNBLD - ['CARR', 'HOUT', 'HOUTA']
+MUSN - ['BADD', 'MUSE', 'TTAB']
+PASTAT - ['CAMS', 'CURY', 'STAT']
+PAYS - ['CURY', 'SIGN', 'STAT']
+PAYTOS - ['AMTS', 'CAMS', 'MICY']
+PENDIT - ['FCHK', 'FEXP', 'FPAY']
+R13L - ['MICY', 'SORT', 'XLOG']
+RPPAYM - ['CURY', 'MICY', 'RPAY']
+RREPAI - ['AMTS', 'EXPS', 'RECS']
+SCON - ['BADD', 'BANK', 'MICY']
+SIGL - ['SDSI', 'SIGN', 'TERM']
+SINO - ['SADD', 'SMIF', 'XLOG']
+SINT - ['ERRS', 'SMIF', 'XLOG']
+SMSL - ['ARCH', 'RINX', 'SADD']
+SUPP - ['ARCH', 'CURY', 'SIGN']
+TELEXT - ['CURY', 'MUSE', 'TTAB']
+USXEND - ['BADD', 'BTOC', 'CTOB']
+VALPEC - ['BADD', 'CAMS', 'CURY']
+WARC - ['MATX', 'SREC', 'XLOG']
+WHOMRU - ['BADD', 'RMAS', 'TTAB']
+ZAP - ['BTOC', 'CTOB', 'TERM']
+AUTHER - ['SIGN', 'TERM']
+AUTL - ['MICY', 'TTAB']
+BPRN - ['SACC', 'SIGN']
+CAPDES - ['TERM', 'XLOG']
+CERX - ['SADD', 'XLOG']
+CHKS - ['CAMS', 'SIGN']
+DEIN - ['CMIF', 'MICY']
+DELEXP - ['EXPS', 'FEXP']
+DSEC - ['FMIF', 'MICY']
+DSMLOG - ['RECS', 'RPTS']
+DSMSGS - ['ARCH', 'TERM']
+DSPBAN - ['BADD', 'BANK']
+DSRECS - ['ARCH', 'RECS']
+DSSLOG - ['ARCH', 'TERM']
+EXAUTX - ['LOGG', 'TERM']
+FEIN - ['FMIF', 'MICY']
+GXFR - ['BTOC', 'CTOB']
+HISL - ['CURY', 'HIST']
+JIMR - ['BADD', 'MUSE']
+KY007XL - ['SADD', 'XBBH']
+KY014XL - ['FPAY', 'PAYS']
+KY018XL - ['FPAY', 'PAYS']
+KY025XL - ['CURY', 'HOLI']
+KY032XL - ['BADD', 'CURY']
+KY050XL - ['HOLI', 'XLOG']
+KY163XB - ['CURY', 'SACC']
+KY197XL - ['CMIF', 'MICY']
+KY300XL - ['BTOC', 'CTOB']
+KY340XL - ['BADD', 'SMIF']
+KY400XL - ['BADD', 'XBBH']
+LB002XB - ['BANK', 'XLOG']
+LB003XB - ['BANK', 'XLOG']
+LCON - ['BADD', 'TERM']
+LENQ - ['BANK', 'CMIF']
+LMOD - ['BANK', 'CMIF']
+MAUT - ['CURY', 'TTAB']
+MC25 - ['MICY', 'SMIF']
+MCCH - ['CMIF', 'MICY']
+MCUR - ['CURY', 'XBBH']
+MENTRY - ['BADD', 'XLOG']
+MSAD - ['SADD', 'WHAT']
+MSAU - ['RMAS', 'SADD']
+MSDISP - ['BADD', 'SADD']
+MT098XL - ['EXPS', 'FEXP']
+MTOC - ['CAMS', 'CMIF']
+NYCH - ['PAYS', 'STAT']
+ORDCHK - ['CURY', 'SADD']
+ORDL - ['CHKS', 'ORDS']
+PBAL - ['BANK', 'SORT']
+PMDDSET - ['PAYS', 'RECS']
+PNOESET - ['CHKS', 'EXPS']
+POAACT - ['AMTS', 'MICY']
+QCIP - ['CMIF', 'MICY']
+QCOP - ['CMOF', 'MICY']
+R2DISP - ['ARCH', 'TERM']
+RBALS - ['CURY', 'HOUT']
+ROMG - ['RINX', 'XLOG']
+RPAY - ['CMIF', 'PAYS']
+RPDTAM - ['AMTM', 'AMTS']
+RPYL - ['RPAY', 'SORT']
+RVERIF - ['AMTS', 'RECS']
+SCBT - ['SIGN', 'XLOG']
+SECL - ['ARCH', 'MICY']
+SETREL - ['RPAY', 'SREC']
+SIOF - ['SIGN', 'TERM']
+SION - ['SIGN', 'TERM']
+SLSX - ['SADD', 'XLOG']
+SM25 - ['MICY', 'SMIF']
+SSETTL - ['AMTS', 'BADD']
+STAL - ['SORT', 'STAT']
+SWOPCA - ['ARCH', 'RINX']
+SWREPR - ['CURY', 'RINX']
+SYNSEC - ['BADD', 'BANK']
+TOACCT - ['AMTS', 'MICY']
+UPBL - ['AMTS', 'CURY']
+UPXS - ['BANK', 'CAMS']
+USTIN - ['BTOC', 'CTOB']
+VALSWO - ['MUSE', 'STAT']
+ADJUST - ['CAMS']
+AM790XB - ['BANK']
+AM795XB - ['BANK']
+ARCANC - ['ARCH']
+AUTLIM - ['CMIF']
+AVSTAT - ['CAMS']
+BANK - ['CTOB']
+BBHGET - ['XBBH']
+BCSREL - ['FPAY']
+BSPT - ['TERM']
+BUYS - ['CAMS']
+CAAPPR - ['XLOG']
+CAREPR - ['XLOG']
+CASTAT - ['BANK']
+CKDATE - ['HOLI']
+DASR - ['MICY']
+DCNT - ['CTOB']
+DLREGI - ['REGI']
+DLSORT - ['SORT']
+DOUT - ['MICY']
+DREL - ['MICY']
+DSMICY - ['MICY']
+DSREGI - ['REGI']
+EXPS - ['CURY']
+F2SCRN - ['RPAY']
+FEDS - ['SIGN']
+FINO - ['XLOG']
+FRBL - ['MICY']
+FX088XB - ['SADD']
+FX132XB - ['SADD']
+FX830XB - ['XLOG']
+FX831XB - ['XLOG']
+GENSWF - ['PAYS']
+GSWM - ['SMIF']
+HISTOR - ['HIST']
+HONCAR - ['XLOG']
+IRMA - ['RMAS']
+ISAUTX - ['STAT']
+KL401XL - ['BTOC']
+KM401XL - ['BTOC']
+KY002XL - ['BADD']
+KY006XB - ['CHKS']
+KY008XL - ['MICY']
+KY016XL - ['SIGN']
+KY017XL - ['CURY']
+KY021XL - ['XLOG']
+KY022XL - ['BADD']
+KY023XL - ['BADD']
+KY024XL - ['BADD']
+KY033XL - ['CURY']
+KY057XL - ['ARCH']
+KY080XL - ['XBBH']
+KY161XB - ['SACC']
+KY320XL - ['BADD']
+KY401XL - ['BTOC']
+KY410XL - ['BTOC']
+KY411XL - ['BTOC']
+KY420XL - ['BTOC']
+LEIN - ['MICY']
+LPRTBY - ['REGI']
+LREQ - ['MICY']
+M39X - ['SMIF']
+MBSCRN - ['HOUT']
+MCTX - ['MICY']
+MDEP - ['BADD']
+MICOPY - ['MICY']
+MLIN - ['BADD']
+MSCBLD - ['SDSI']
+MSDN - ['SADD']
+MSEC - ['BADD']
+MSELEC - ['BADD']
+MT093XL - ['BADD']
+MTID - ['BANK']
+MTST - ['BADD']
+MXFR - ['BTOC']
+NOEL - ['TERM']
+OENTRY - ['ORDS']
+ORDISP - ['CHKS']
+OREPAI - ['ORDS']
+ORINLI - ['ORDS']
+OVERIF - ['ORDS']
+PARCSET - ['ARCH']
+PBILSET - ['BANK']
+PDPBSET - ['BANK']
+PEBASET - ['BANK']
+PECKSET - ['CHKS']
+PEEXSET - ['EXPS']
+PEFUSET - ['BANK']
+PEORSET - ['ORDS']
+PEPASET - ['PAYS']
+PERVSET - ['RECS']
+PFIISET - ['RPAY']
+PKPASET - ['BANK']
+PREPNY - ['CMIF']
+PRETRN - ['ARCH']
+PRIMIE - ['SMIF']
+PRTORG - ['CMIF']
+PZAPSET - ['BANK']
+QFIP - ['FMIF']
+QROP - ['RMOF']
+QSIP - ['SMIF']
+QSOP - ['SMOF']
+QTIP - ['MICY']
+QTOP - ['MICY']
+QWOP - ['BADD']
+RECS - ['RECS']
+REGIST - ['REGI']
+RGIL - ['REGI']
+ROMSGS - ['RINX']
+ROUTER - ['RINX']
+SAUL - ['SORT']
+SCRF - ['BANK']
+STOREL - ['FPAY']
+SWAPPR - ['RINX']
+SWDISP - ['SADD']
+SWEXPS - ['RINX']
+TELX - ['MUSE']
+TIMEX - ['TERM']
+TKEY - ['BADD']
+TOUT - ['MUSE']
+UPDAYB - ['CURY']
+USTOUT - ['BTOC']
+USXBKI - ['XLOG']
+WHAL - ['WHAT']
+XUSL - ['SORT']
+
+----------------------------------------------------------------------------------------------------
+
+
+=== 4. File Co-Usage Grouping ===
+
+Group 1: 51 Files
+['PAYS', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'DUPP', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'MATX', 'MESS', 'MICY', 'MISC', 'ORDS', 'RECS', 'REGI', 'RINX', 'RMOF', 'RPAY', 'RPTS', 'SACC', 'SDSI', 'SIGN', 'SMIF', 'SMOF', 'SORT', 'SREC', 'STAT', 'TERM', 'WHAT', 'XBBH', 'XLOG', 'FMIF']
+
+333 Programs using ONLY the above 51 files:
+['ACUSTA', 'ADJUST', 'ADVP', 'AM790XB', 'AM795XB', 'AMSGSETC', 'ARCANC', 'ARCV', 'ARKEYS', 'ARSTOR', 'AUTB', 'AUTHER', 'AUTLIM', 'AUTM', 'AUTP', 'AUTREC', 'AUXV', 'AVSTAT', 'BANK', 'BARB', 'BBHGET', 'BCOM', 'BCS', 'BCSREL', 'BCSSTA', 'BFIL', 'BFUN', 'BINF', 'BINI', 'BKIN', 'BPRN', 'BSPT', 'BUSY', 'BUYS', 'CAAPPR', 'CACOPY', 'CANMSG', 'CAPDES', 'CAREPR', 'CASSUM', 'CASTAT', 'CHKS', 'CISS', 'CKDATE', 'CLOL', 'CMIP', 'COLD1', 'DAIN', 'DASR', 'DBAUTY', 'DCHP', 'DCNT', 'DEIN', 'DELEXP', 'DELPOC', 'DETAIL', 'DIP', 'DLPAYS', 'DLREGI', 'DLSORT', 'DLXORE', 'DOUT', 'DREL', 'DSACCT', 'DSALOG', 'DSBLXS', 'DSCARR', 'DSEC', 'DSERRS', 'DSEXPS', 'DSLINI', 'DSLINS', 'DSLOG2', 'DSMESS', 'DSMICY', 'DSMLOG', 'DSMSGS', 'DSPAYS', 'DSPBAN', 'DSPHON', 'DSRECS', 'DSREGI', 'DSSLOG', 'DSSUMM', 'DSUSER', 'DSXLOG', 'DUTI', 'EENTRY', 'ENDDAY', 'ENQ', 'EREPAI', 'ERRL', 'EVENTS', 'EXAUTX', 'EXPS', 'F2DISP', 'F2SCRN', 'FANDEX', 'FEDS', 'FEIN', 'FELOAD', 'FENQ', 'FFPL', 'FINO', 'FIP', 'FMIP', 'FORMSG', 'FRBC', 'FRBL', 'FRETRN', 'FRRN', 'FX830XB', 'FX831XB', 'GENSWF', 'GENT', 'GSWM', 'GXFR', 'HISL', 'HISTOR', 'HOLDON', 'HONCAR', 'HOSH', 'ISAUTX', 'KL401XL', 'KM401XL', 'KY002XL', 'KY006XB', 'KY008XL', 'KY011XL', 'KY014XL', 'KY016XL', 'KY017XL', 'KY018XL', 'KY021XL', 'KY022XL', 'KY023XL', 'KY024XL', 'KY025XL', 'KY032XL', 'KY033XL', 'KY035XL', 'KY050XL', 'KY057XL', 'KY070XL', 'KY080XL', 'KY161XB', 'KY163XB', 'KY197XL', 'KY300XL', 'KY320XL', 'KY340XL', 'KY400XL', 'KY401XL', 'KY410XL', 'KY411XL', 'KY420XL', 'LB002XB', 'LB003XB', 'LCON', 'LEIN', 'LENQ', 'LINT', 'LMOD', 'LPRTBY', 'LREL', 'LREQ', 'M39X', 'MATCHS', 'MATCHX', 'MATMAR', 'MATOFF', 'MBSCRN', 'MBUILD', 'MC25', 'MCCH', 'MCTX', 'MCUR', 'MDEP', 'MENTRY', 'MESL', 'MICOPY', 'MLIN', 'MLOL', 'MSCBLD', 'MSEC', 'MSELEC', 'MT090XL', 'MT093XL', 'MT098XL', 'MT101XL', 'MTID', 'MTOC', 'MTST', 'MUPBLD', 'MXFR', 'MYNCHK', 'NOEL', 'NYCH', 'OBUILD', 'OENTRY', 'OFAN', 'OFAX', 'ORDISP', 'ORDL', 'OREPAI', 'ORINLI', 'OVERIF', 'PAAUTX', 'PADISP', 'PARCSET', 'PASTAT', 'PAUTHR', 'PAYS', 'PAYTOC', 'PAYTOF', 'PAYTOS', 'PBAL', 'PBILSET', 'PBUILD', 'PDPBSET', 'PEBASET', 'PECKSET', 'PEEXSET', 'PEFUSET', 'PENDIT', 'PENTRY', 'PEORSET', 'PEPASET', 'PERVSET', 'PFIISET', 'PHOL', 'PKPASET', 'PMDDSET', 'PNOESET', 'POAACT', 'PORL', 'PREPAI', 'PREPNY', 'PRETRN', 'PRIMIE', 'PROJEC', 'PRTORG', 'PSTL', 'PVERIF', 'PZAPSET', 'QCIP', 'QCOP', 'QFIP', 'QOLD', 'QOLP', 'QOLQ', 'QROP', 'QSIP', 'QSOP', 'QTIP', 'QTOP', 'QWOP', 'R13L', 'R2DISP', 'RBALS', 'RECS', 'REGIST', 'REOFAC', 'RGIL', 'ROLL', 'ROMG', 'ROMSGS', 'ROUTER', 'RPAY', 'RPDISP', 'RPDTAM', 'RPPAYM', 'RPTL', 'RPYL', 'RREPAI', 'RTCASH', 'RU13', 'RVERIF', 'SAUL', 'SCBT', 'SCON', 'SCRF', 'SECL', 'SETREL', 'SIGL', 'SINT', 'SIOF', 'SION', 'SIP', 'SIRS', 'SLOL', 'SM25', 'SOFA', 'SREL', 'SSETTL', 'STAL', 'STOREL', 'SUPP', 'SWAPPR', 'SWEXPS', 'SWFANE', 'SWOPCA', 'SWREPR', 'SYNCHK', 'SYNSEC', 'TEST', 'TESTKK', 'TIMEX', 'TIP', 'TKEY', 'TOACCT', 'TRYVOA', 'TUTI', 'UNBU', 'UPBL', 'UPDAYB', 'UPXS', 'USTIN', 'USTOUT', 'USXEND', 'USXBKI', 'VALGEN', 'VALPEC', 'WARC', 'WARM', 'WARP', 'WARQ', 'WARX', 'WHAL', 'WRTMSG', 'XMTFED', 'XUSL', 'ZAP']
+
+----------------------------------------------------------------------------------------------------
+
+Group 2: 54 Files
+
+Newly added files = ['LOOK', 'MINC', 'MUSE', 'SADD', 'TTAB']
+
+['BANK', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'DUPP', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'LOOK', 'MATX', 'MESS', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS', 'RINX', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SDSI', 'SIGN', 'SMIF', 'SMOF', 'SORT', 'SREC', 'STAT', 'TERM', 'TTAB', 'WHAT', 'XBBH', 'XLOG', 'FMIF']
+
+47 Programs using ONLY the above 54 files:
+['AUTL', 'BADL', 'BKEX', 'CADISP', 'CARL', 'CATEST', 'CERX', 'CRLOOK1', 'DBAUTX', 'DLCARR', 'FX088XB', 'FX132XB', 'JIMR', 'KY007XL', 'KY009XL', 'KY012XL', 'KY013XL', 'LINO', 'LOOKUP', 'MAUT', 'MBAD', 'MCUS', 'MDDA', 'MKPA', 'MPBA', 'MSAD', 'MSDISP', 'MSDN', 'MUSED', 'MUSN', 'ORDCHK', 'QOLA', 'SINO', 'SLSX', 'SMSL', 'SWDISP', 'SYNDDA', 'TELEXT', 'TELX', 'TOUT', 'TREL', 'TXIN', 'TXTEST', 'VALSWO', 'VDUM', 'VUPD', 'WHOAMI']
+
+----------------------------------------------------------------------------------------------------
+
+Group 3: 50 Files
+
+Newly added files = []
+
+['RECS', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'DUPP', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'MATX', 'MESS', 'MICY', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'REGI', 'RINX', 'RMOF', 'RPAY', 'RPTS', 'SDSI', 'SIGN', 'SMIF', 'SMOF', 'SORT', 'SREC', 'STAT', 'TERM', 'XBBH', 'XLOG', 'FMIF']
+
+1 Programs using ONLY the above 50 files:
+['VALSWI']
+
+----------------------------------------------------------------------------------------------------
+
+Group 4: 46 Files
+
+Newly added files = ['HOUTA']
+
+['XLOG', 'AMTP', 'AMTS', 'ARCH', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'MATX', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS', 'RINX', 'RPAY', 'SADD', 'SDSI', 'SIGN', 'SMIF', 'SMOF', 'SORT', 'SREC', 'STAT', 'TERM', 'TTAB', 'XBBH', 'FMIF', 'HOUTA']
+
+2 Programs using ONLY the above 46 files:
+['MUNBLD', 'OSAUTX']
+
+----------------------------------------------------------------------------------------------------
+
+Group 5: 46 Files
+
+Newly added files = ['RMAS']
+
+['BADD', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOUT', 'LOGG', 'LOOK', 'MICY', 'MINC', 'MISC', 'MUSE', 'PAYS', 'RECS', 'RINX', 'RMAS', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SDSI', 'SIGN', 'SMIF', 'SREC', 'TERM', 'TTAB', 'WHAT', 'XBBH', 'XLOG', 'FMIF']
+
+4 Programs using ONLY the above 46 files:
+['FINDAU', 'IRMA', 'MSAU', 'WHOMRU']
+
+----------------------------------------------------------------------------------------------------
+
+Group 6: 44 Files
+
+Newly added files = ['LNID']
+
+['TERM', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'DUPP', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HOLI', 'HOUT', 'LOGG', 'LOOK', 'MATX', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS', 'RINX', 'RPAY', 'SADD', 'SDSI', 'SIGN', 'SMIF', 'SORT', 'SREC', 'STAT', 'XLOG', 'FMIF', 'LNID']
+
+1 Programs using ONLY the above 44 files:
+['MSOP']
+
+----------------------------------------------------------------------------------------------------
+
+
+=== 5. Disjoint File Groups (if any) ===
+
+No completely disjoint file group found other than the largest group.
+
+
+******************************************************************************************
+
+Files not used by any program: 0
+
+******************************************************************************************
+
+Programs with no file usage : 87
+ - AW375XL
+ - BBHON
+ - BOUT
+ - BSYS
+ - CY515XB
+ - DLAYER
+ - DPPO
+ - DRDO
+ - DSLOGG
+ - DTEX
+ - EBOS
+ - FBSCRN
+ - FEDISP
+ - FEDSET
+ - FORKAY
+ - FRDISP
+ - FRES
+ - FX832XB
+ - JOHN
+ - KCSSTRT
+ - KY001XL
+ - KY010XL
+ - KY051XL
+ - KY150DR
+ - KY150XL
+ - KY160DR
+ - KY160XL
+ - KY195XL
+ - KY196XL
+ - KY221XB
+ - KY275XL
+ - KY660XL
+ - KY661XL
+ - LINORG
+ - LKIN
+ - LKSTAT
+ - LMACPR
+ - LOUT
+ - MONYIN
+ - MT091XL
+ - MT100XL
+ - MT490XL
+ - OBSCRN
+ - ORDS
+ - PADISET
+ - PBKESET
+ - PBSCRN
+ - PEBUSET
+ - PESUSET
+ - PFDISET
+ - PFRDSET
+ - PMDESET
+ - PMDISET
+ - PMTISET
+ - PNCKPAY
+ - PODISET
+ - PPDISET
+ - PRIISET
+ - PRPDSET
+ - PRSTAT
+ - QFOP
+ - R2SCRN
+ - RBSCRN
+ - REDISP
+ - REFERS
+ - ROSTAT
+ - RPSCRN
+ - RTSTAU
+ - SAND
+ - SDNLON
+ - SEGMNT
+ - SELL
+ - SETRE
+ - SNB795O
+ - SNB805O
+ - SNB820O
+ - SNB822O
+ - SNB824O
+ - SOUT
+ - STEV
+ - SWIF
+ - TESTSET
+ - TOKDIS
+ - TX230MB
+ - UAKS
+ - VALTID
+ - XSCR
+
+******************************************************************************************
+
+ Total Programs: 475
+  - In groups  : 388
+  - With no use: 87
+
+******************************************************************************************
+
+ Total Files  : 59
+  - In groups  : 59
+  - Never used : 0
+
+Assertion Check Passed: All programs and files are fully accounted.
