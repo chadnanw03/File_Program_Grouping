@@ -1,3 +1,6 @@
+** GROUPING FOR ALL SHEETS IS UPLOADED STARTING LINE NO 960
+
+
 File Name: All_Inventory - Keystone Medium.xlsx
 Sheet Name: Online PGM
 Start-End Column: (1, 61)
@@ -423,88 +426,7 @@ Used by 87 programs:
  - WARP
  - DUTI
  - PAYTOC
- - DLPAYS
- - MT090XL
- - DELPOC
- - EVENTS
- - PREPAI
- - VALSWI
- - PENTRY
- - OBUILD
- - PBUILD
- - WARX
- - PADISP
- - CANMSG
- - MATMAR
- - EREPAI
- - RPDISP
- - CISS
- - COLD1
- - EENTRY
- - ERRL
- - DBAUTY
- - PENDIT
- - GXFR
- - KY018XL
- - ROMG
- - EXAUTX
- - USTIN
- - SWREPR
- - KY014XL
- - KY300XL
- - RPAY
- - DSMLOG
- - MT098XL
- - PNOESET
- - PMDDSET
- - ORDL
- - DELEXP
- - ORINLI
- - PEORSET
- - ORDISP
- - KM401XL
- - OREPAI
- - QSIP
- - SWEXPS
- - GSWM
- - PRIMIE
- - AUTLIM
- - PEEXSET
- - M39X
- - USTOUT
- - KY006XB
- - PECKSET
- - KY420XL
- - SWAPPR
- - QSOP
- - DCNT
- - PERVSET
- - DLREGI
- - MXFR
- - DSREGI
- - STOREL
- - PREPNY
- - ROUTER
- - PEPASET
- - KY401XL
- - OENTRY
- - QFIP
- - BANK
- - KY410XL
- - REGIST
- - RGIL
- - KY411XL
- - LPRTBY
- - ROMSGS
- - PRTORG
- - BCSREL
- - KL401XL
- - QROP
- - GENSWF
- - F2SCRN
- - PFIISET
- - OVERIF
- - RECS
+ - DLPAYS // and so on
 
 **************************************************************************************
 
@@ -515,80 +437,7 @@ Used by 79 programs:
  - MT101XL
  - OFAN
  - OFAX
- - FMIP
- - KY070XL
- - GENT
- - OSAUTX
- - MUPBLD
- - PSTL
- - AUXV
- - SINT
- - RREPAI
- - HOLDON
- - FINDAU
- - USXEND
- - KY035XL
- - MUNBLD
- - WHOMRU
- - MBUILD
- - HISL
- - RBALS
- - LB002XB
- - KY032XL
- - MSAU
- - LMOD
- - MCUR
- - RVERIF
- - LENQ
- - KY400XL
- - UPBL
- - KY340XL
- - SYNSEC
- - MENTRY
- - SSETTL
- - DSPBAN
- - LB003XB
- - EXPS
- - CASTAT
- - KY022XL
- - KY021XL
- - PEBASET
- - KY320XL
- - PKPASET
- - MLIN
- - KY033XL
- - FX831XB
- - CAAPPR
- - UPDAYB
- - AM795XB
- - PDPBSET
- - KY080XL
- - MT093XL
- - KY024XL
- - KY023XL
- - FX830XB
- - MDEP
- - AM790XB
- - MSELEC
- - HONCAR
- - FINO
- - BBHGET
- - MTST
- - TKEY
- - SCRF
- - CAREPR
- - HISTOR
- - USXBKI
- - PZAPSET
- - MBSCRN
- - PBILSET
- - MSEC
- - KY017XL
- - PEFUSET
- - KY002XL
- - QWOP
- - MTID
- - IRMA
+ - FMIP // and so on
 
 **************************************************************************************
 
@@ -599,89 +448,7 @@ Used by 88 programs:
  - TUTI
  - TESTKK
  - BUSY
- - PAAUTX
- - VUPD
- - CMIP
- - VDUM
- - BCS
- - DSERRS
- - SOFA
- - SREL
- - ROLL
- - SWFANE
- - MATCHX
- - MATOFF
- - BFUN
- - DIP
- - BFIL
- - FANDEX
- - ACUSTA
- - AUTM
- - AUTREC
- - DSLINS
- - AUTB
- - MATCHS
- - FELOAD
- - FRBC
- - MESL
- - MSOP
- - WRTMSG
- - ZAP
- - DSUSER
- - DAIN
- - MLOL
- - SCON
- - RPPAYM
- - PAYS
- - DCHP
- - DSBLXS
- - BCOM
- - WARC
- - F2DISP
- - FRRN
- - SIGL
- - LREL
- - DEIN
- - KY197XL
- - AUTHER
- - KY025XL
- - KY050XL
- - TOACCT
- - FEIN
- - SION
- - SM25
- - QCIP
- - DSEC
- - SETREL
- - NYCH
- - SIOF
- - POAACT
- - SCBT
- - LCON
- - QCOP
- - CAPDES
- - MCCH
- - MC25
- - LREQ
- - CKDATE
- - KY016XL
- - DASR
- - DSMICY
- - FEDS
- - DREL
- - DOUT
- - MSCBLD
- - TIMEX
- - QTOP
- - KY008XL
- - LEIN
- - FRBL
- - MCTX
- - QTIP
- - MICOPY
- - NOEL
- - BSPT
- - ISAUTX
+ - PAAUTX // and so on
 
 **************************************************************************************
 
@@ -692,61 +459,7 @@ Used by 60 programs:
  - FIP
  - ARKEYS
  - ARSTOR
- - DSPAYS
- - REOFAC
- - DSALOG
- - VALGEN
- - SLOL
- - ADVP
- - SIP
- - RU13
- - MYNCHK
- - FENQ
- - DSLINI
- - RPTL
- - PHOL
- - TIP
- - DSMESS
- - AUTP
- - LINT
- - ENQ
- - BCSSTA
- - XMTFED
- - SIRS
- - DSEXPS
- - DSXLOG
- - DSCARR
- - SUPP
- - FRETRN
- - CACOPY
- - VALPEC
- - PASTAT
- - CLOL
- - R13L
- - ARCV
- - PAYTOS
- - DSRECS
- - SWOPCA
- - DSSLOG
- - DSMSGS
- - R2DISP
- - STAL
- - MTOC
- - PBAL
- - CHKS
- - RPYL
- - SECL
- - UPXS
- - PRETRN
- - ARCANC
- - KY057XL
- - DLSORT
- - AVSTAT
- - ADJUST
- - BUYS
- - SAUL
- - PARCSET
- - XUSL
+ - DSPAYS // and so on
 
 **************************************************************************************
 
@@ -855,88 +568,7 @@ Programs with no file usage : 87
  - BOUT
  - BSYS
  - CY515XB
- - DLAYER
- - DPPO
- - DRDO
- - DSLOGG
- - DTEX
- - EBOS
- - FBSCRN
- - FEDISP
- - FEDSET
- - FORKAY
- - FRDISP
- - FRES
- - FX832XB
- - JOHN
- - KCSSTRT
- - KY001XL
- - KY010XL
- - KY051XL
- - KY150DR
- - KY150XL
- - KY160DR
- - KY160XL
- - KY195XL
- - KY196XL
- - KY221XB
- - KY275XL
- - KY660XL
- - KY661XL
- - LINORG
- - LKIN
- - LKSTAT
- - LMACPR
- - LOUT
- - MONYIN
- - MT091XL
- - MT100XL
- - MT490XL
- - OBSCRN
- - ORDS
- - PADISET
- - PBKESET
- - PBSCRN
- - PEBUSET
- - PESUSET
- - PFDISET
- - PFRDSET
- - PMDESET
- - PMDISET
- - PMTISET
- - PNCKPAY
- - PODISET
- - PPDISET
- - PRIISET
- - PRPDSET
- - PRSTAT
- - QFOP
- - R2SCRN
- - RBSCRN
- - REDISP
- - REFERS
- - ROSTAT
- - RPSCRN
- - RTSTAU
- - SAND
- - SDNLON
- - SEGMNT
- - SELL
- - SETRE
- - SNB795O
- - SNB805O
- - SNB820O
- - SNB822O
- - SNB824O
- - SOUT
- - STEV
- - SWIF
- - TESTSET
- - TOKDIS
- - TX230MB
- - UAKS
- - VALTID
- - XSCR
+ - DLAYER // and so on
 
 **************************************************************************************
 
@@ -951,3 +583,295 @@ Programs with no file usage : 87
   - Never used : 0
 
 Assertion Check Passed: All programs and files are fully accounted.
+
+
+
+******************************************************************************************
+GROUPING OUTPUT FOR ALL SHEETS | FILE USED: 'All_Inventory - Keystone WITHOUT ZEROSTAT.xlsx'
+******************************************************************************************
+
+sheet_name = 'CNTL Card' 
+start_col, end_col = 14, 88
+
+OUTPUT:
+Group 1 (with 25 files): [ALOG, AMTM, AMTS, BADD, BTOC, CMIF, CMOF, CURY, ERRS, FMIS, HIST, HOUTA, KYCMEVC, LOOK, MATX, MISC, MUSE, PAYS, RINX, SADD, SLOG, STAB, STAT, TERM, TIDS]
+Used by 7 programs:
+ - MKM05900
+ - KEYSDUMP
+ - DKY01500
+ - KEYSDMP
+ - MKL05900
+ - MKY05900
+ - RKY01500
+
+
+Group 2 (with 25 files): [ACCT, AMTP, CARR, CHKS, CTOB, DUPP, FCHK, FEXP, FMIF, FPAY, HOLI, HOUT, KPAY, RECS, RMAS, RMOF, RPAY, RPTS, SACC, SMIF, SMSG, SORT, TTAB, WHAT, XBBH]
+Used by 14 programs:
+ - RKY02400
+ - RKY0150A
+ - DKM0060A
+ - DKM01304
+ - DKY01304
+ - DKY51550
+ - DKY00501
+ - DKM51550
+ - DKL0060A
+ - DKL00501
+ - DKL51550
+ - DKM00501
+ - DKY0060A
+ - DKL01304
+
+
+Group 3 (with 18 files): [BACC, BANK, CAMS, CUST, DEST, EXPS, LNID, LOGG, MESS, MICY, MINC, ORDS, REGI, SDSI, SIGN, SMOF, SREC, XLOG]
+Used by 36 programs:
+ - DKM05000
+ - DKY05000
+ - DKY03100
+ - DKM03100
+ - DKL05000 // and so on
+
+
+Group 4 (with 1 files): [ARCH]
+Used by 4 programs:
+ - RKY0560A
+ - DKM0550B
+ - DKY0550B
+ - DKL0550B
+
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Online PGM'
+start_col, end_col = 21, 90
+
+OUTPUT:
+Group 1 (with 39 files): [ACCT, ALOG, AMTS, ARCH, BACC, BADD, BANK, BTOC, CAMS, CARR, CHKS, CTOB, CURY, DEST, DUPP, EXPS, FCHK, FEXP, FMIS, FPAY, HIST, HOUT, HOUTA, LNID, LOGG, LOOK, MINC, MISC, PAYS, REGI, RINX, RMAS, SADD, SLOG, SMSG, SORT, STAB, TIDS, XBBH]
+Used by 185 programs:
+ - DSLOG2
+ - DUTI
+ - QOLP
+ - FIP
+ - WARP
+ - PORL // and so on
+
+
+Group 2 (with 11 files): [CMIF, CMOF, ERRS, FMIF, MESS, ORDS, RECS, RMOF, RPTS, SMIF, SMOF]
+Used by 45 programs:
+ - BINF
+ - FMIP
+ - PVERIF
+ - MT101XL
+ - OFAX // and so on
+
+
+Group 3 (with 9 files): [CUST, HOLI, MATX, MICY, SDSI, SIGN, SREC, STAT, TERM]
+Used by 91 programs:
+ - BARB
+ - TUTI
+ - TEST
+ - TESTKK
+ - BUSY // and so on
+
+
+Group 4 (with 4 files): [KPAY, KYCMEVC, RPAY, XLOG]
+Used by 114 programs:
+ - BKIN
+ - PENTRY
+ - CANMSG
+ - PBUILD
+ - KY014XL
+ - MUPBLD // and so on
+
+
+Group 5 (with 2 files): [AMTM, AMTP]
+Used by 17 programs:
+ - HOSH
+ - AMSGSETC
+ - DETAIL
+ - WARM
+ - ENDDAY
+ - PAYTOF
+ - PAUTHR
+ - CASSUM
+ - QOLD
+ - QOLQ
+ - FFPL
+ - UNBU
+ - DLXORE
+ - RTCASH
+ - DSSUMM
+ - WARQ
+ - RPDTAM
+
+
+Group 6 (with 2 files): [MUSE, TTAB]
+Used by 12 programs:
+ - QOLA
+ - CATEST
+ - DLCARR
+ - MUSED
+ - AUTL
+ - MUSN
+ - VALSWO
+ - JIMR
+ - TOUT
+ - TELEXT
+ - MAUT
+ - TELX
+
+
+Group 7 (with 2 files): [SACC, WHAT]
+Used by 8 programs:
+ - FORMSG
+ - TXTEST
+ - SYNCHK
+ - BPRN
+ - KY011XL
+ - WHAL
+ - KY161XB
+ - KY163XB
+
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Batch PGM'
+start_col, end_col = 14, 67
+
+OUTPUT:
+Group 1 (with 21 files): [ALOG, AMTP, BACC, BANK, CAMS, CUST, DEST, ERRS, HIST, KPAY, MATX, MESS, MICY, MISC, RMOF, SACC, SIGN, SMSG, SREC, STAT, XLOG]
+Used by 218 programs:
+ - DKY437
+ - MMATCH
+ - LDCUST
+ - RMT090
+ - WFX150 // and so on
+
+
+Group 2 (with 8 files): [ACCT, CHKS, FCHK, FEXP, FPAY, PAYS, RPAY, XBBH]
+Used by 31 programs:
+ - DKY082
+ - RKY820
+ - DKY426
+ - DKY428
+ - RKY080 // and so on
+
+
+Group 3 (with 4 files): [CMIF, FMIS, RECS, SMIF]
+Used by 11 programs:
+ - RKY001
+ - RKY800
+ - DKY084
+ - DKY520
+ - DKY036
+ - RKY098
+ - RKY099
+ - DKY632
+ - DKY600
+ - DKY630
+ - DKY500
+
+
+Group 4 (with 3 files): [AMTM, AMTS, BADD]
+Used by 11 programs:
+ - RKY805
+ - DKY070
+ - DKY503
+ - DKY504
+ - DKY150
+ - DKY087
+ - DKY151
+ - CRAMTS
+ - DKY089
+ - CRAMTM
+ - RKY422
+
+
+Group 5 (with 3 files): [BTOC, CTOB, RPTS]
+Used by 27 programs:
+ - CRBCSF
+ - DKY411
+ - DKY410
+ - DMT085
+ - DKY408 // and so on
+
+
+Group 6 (with 2 files): [SLOG, TIDS]
+Used by 42 programs:
+ - DKY001
+ - DKY026
+ - DKY453
+ - DKY021
+ - DKY365 // and so on
+
+
+Group 7 (with 2 files): [CARR, FMIF]
+Used by 4 programs:
+ - DKY510
+ - DKY085
+ - DKY455
+ - DKY011
+
+
+Group 8 (with 2 files): [CURY, HOLI]
+Used by 23 programs:
+ - NOSHOL
+ - DKY375
+ - RKY611
+ - RKY618
+ - DKY320 // and so on
+
+
+Group 9 (with 2 files): [RMAS, SADD]
+Used by 13 programs:
+ - DKY100
+ - DKY460
+ - RKY853
+ - RKY851
+ - DKY338
+ - DKY095
+ - DAM643
+ - DKY152
+ - RKY848
+ - DKY608
+ - RFX600
+ - RKY939
+ - RFX100
+
+
+Group 10 (with 2 files): [ARCH, ORDS]
+Used by 14 programs:
+ - MKY057
+ - RKY035
+ - RKY300
+ - RKY900
+ - RKY020
+ - MKY102
+ - MKY101
+ - RKY862
+ - RKY901
+ - RKY105
+ - MKY103
+ - RKY100
+ - DKY086
+ - DKY055
+
+
+Group 11 (with 2 files): [LOOK, WHAT]
+Used by 1 programs:
+ - LDSADD
+
+
+Group 12 (with 1 files): [RINX]
+Used by 1 programs:
+ - CRRINX
+
+
+Group 13 (with 1 files): [SORT]
+Used by 1 programs:
+ - CRSORT
+
+
+Group 14 (with 1 files): [STAB]
+Used by 1 programs:
+ - KY162XB
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------
