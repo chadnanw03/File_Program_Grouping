@@ -1,3 +1,11 @@
+** GROUPING FOR ALL SHEETS IS UPLOADED STARTING LINE NO 985
+
+File Name: All_Inventory - Keystone Medium.xlsx
+Sheet Name: Online PGM
+Start-End Column: (1, 61)
+
+OUTPUT:
+
 === Programs and Files Used (Sorted by File Count Descending) ===
 
 BINF: [BTOC, CARR, CHKS, CMIF, CMOF, CTOB, ERRS, EXPS, FCHK, FEXP, FMIF, FMIS, FPAY, MESS, MISC, ORDS, PAYS, RECS, RMOF, RPAY, RPTS, SMIF, SMOF]
@@ -399,65 +407,7 @@ Used by 65 programs:
  - MT090XL: [CHKS, EXPS, FCHK, FEXP, FMIS, FPAY, MISC, PAYS, RECS]
  - PREPAI: [CHKS, FCHK, FMIS, FPAY, MISC, ORDS, PAYS, RPAY]
  - OBUILD: [CHKS, EXPS, FCHK, FEXP, FPAY, ORDS, PAYS]
- - PENTRY: [CHKS, FCHK, FMIS, FPAY, MISC, PAYS, RPAY]
- - CANMSG: [CHKS, EXPS, FCHK, FEXP, FPAY, PAYS]
- - PBUILD: [CHKS, EXPS, FCHK, FEXP, FPAY, PAYS]
- - WARX: [ERRS, MESS, RMOF, RPTS, SMIF, SMOF]
- - EREPAI: [EXPS, FEXP, FPAY, ORDS, PAYS]
- - MATMAR: [EXPS, FEXP, FPAY, PAYS, RECS]
- - RPDISP: [CHKS, FCHK, FEXP, FPAY, RPAY]
- - EENTRY: [EXPS, FEXP, FPAY, PAYS]
- - ERRL: [CMIF, ERRS, FMIF, SMIF]
- - PENDIT: [FCHK, FEXP, FPAY]
- - DELEXP: [EXPS, FEXP]
- - DSMLOG: [RECS, RPTS]
- - GXFR: [BTOC, CTOB]
- - KY014XL: [FPAY, PAYS]
- - KY018XL: [FPAY, PAYS]
- - KY300XL: [BTOC, CTOB]
- - MT098XL: [EXPS, FEXP]
- - ORDL: [CHKS, ORDS]
- - PMDDSET: [PAYS, RECS]
- - PNOESET: [CHKS, EXPS]
- - RPAY: [CMIF, PAYS]
- - USTIN: [BTOC, CTOB]
- - AUTLIM: [CMIF]
- - BANK: [CTOB]
- - BCSREL: [FPAY]
- - DCNT: [CTOB]
- - F2SCRN: [RPAY]
- - GENSWF: [PAYS]
- - GSWM: [SMIF]
- - KL401XL: [BTOC]
- - KM401XL: [BTOC]
- - KY006XB: [CHKS]
- - KY401XL: [BTOC]
- - KY410XL: [BTOC]
- - KY411XL: [BTOC]
- - KY420XL: [BTOC]
- - M39X: [SMIF]
- - MXFR: [BTOC]
- - OENTRY: [ORDS]
- - ORDISP: [CHKS]
- - OREPAI: [ORDS]
- - ORINLI: [ORDS]
- - OVERIF: [ORDS]
- - PECKSET: [CHKS]
- - PEEXSET: [EXPS]
- - PEORSET: [ORDS]
- - PEPASET: [PAYS]
- - PERVSET: [RECS]
- - PFIISET: [RPAY]
- - PREPNY: [CMIF]
- - PRIMIE: [SMIF]
- - PRTORG: [CMIF]
- - QFIP: [FMIF]
- - QROP: [RMOF]
- - QSIP: [SMIF]
- - QSOP: [SMOF]
- - RECS: [RECS]
- - STOREL: [FPAY]
- - USTOUT: [BTOC]
+ - PENTRY: [CHKS, FCHK, FMIS, FPAY, MISC, PAYS, RPAY]          // and so on
 
 **************************************************************************************
 
@@ -468,74 +418,7 @@ Used by 73 programs:
  - MT101XL: [CHKS, CURY, EXPS, FCHK, FEXP, FMIS, FPAY, MISC, PAYS, RECS]
  - FMIP: [AMTS, BADD, CHKS, ERRS, FMIF, FPAY, PAYS, RECS, XLOG]
  - OFAN: [BADD, BANK, CARR, CHKS, FMIF, FPAY, PAYS, RECS, SMIF]
- - OFAX: [CHKS, FCHK, FPAY, HOUT, ORDS, PAYS, RECS, RPAY, XLOG]
- - GENT: [AMTS, BANK, CHKS, CTOB, EXPS, FPAY, PAYS, RECS]
- - KY070XL: [CHKS, EXPS, FCHK, FEXP, FPAY, PAYS, RECS, XBBH]
- - MUPBLD: [BADD, CARR, CURY, HOUT]
- - PSTL: [BANK, CHKS, PAYS, RECS]
- - AUXV: [AMTS, BANK, CMIF]
- - HOLDON: [AMTS, CHKS, PAYS]
- - KY035XL: [BADD, BTOC, CTOB]
- - MBUILD: [BADD, CARR, XLOG]
- - RREPAI: [AMTS, EXPS, RECS]
- - SINT: [ERRS, SMIF, XLOG]
- - USXEND: [BADD, BTOC, CTOB]
- - DSPBAN: [BADD, BANK]
- - HISL: [CURY, HIST]
- - KY032XL: [BADD, CURY]
- - KY340XL: [BADD, SMIF]
- - KY400XL: [BADD, XBBH]
- - LB002XB: [BANK, XLOG]
- - LB003XB: [BANK, XLOG]
- - LENQ: [BANK, CMIF]
- - LMOD: [BANK, CMIF]
- - MCUR: [CURY, XBBH]
- - MENTRY: [BADD, XLOG]
- - RBALS: [CURY, HOUT]
- - RVERIF: [AMTS, RECS]
- - SSETTL: [AMTS, BADD]
- - SYNSEC: [BADD, BANK]
- - UPBL: [AMTS, CURY]
- - AM790XB: [BANK]
- - AM795XB: [BANK]
- - BBHGET: [XBBH]
- - CAAPPR: [XLOG]
- - CAREPR: [XLOG]
- - CASTAT: [BANK]
- - EXPS: [CURY]
- - FINO: [XLOG]
- - FX830XB: [XLOG]
- - FX831XB: [XLOG]
- - HISTOR: [HIST]
- - HONCAR: [XLOG]
- - KY002XL: [BADD]
- - KY017XL: [CURY]
- - KY021XL: [XLOG]
- - KY022XL: [BADD]
- - KY023XL: [BADD]
- - KY024XL: [BADD]
- - KY033XL: [CURY]
- - KY080XL: [XBBH]
- - KY320XL: [BADD]
- - MBSCRN: [HOUT]
- - MDEP: [BADD]
- - MLIN: [BADD]
- - MSEC: [BADD]
- - MSELEC: [BADD]
- - MT093XL: [BADD]
- - MTID: [BANK]
- - MTST: [BADD]
- - PBILSET: [BANK]
- - PDPBSET: [BANK]
- - PEBASET: [BANK]
- - PEFUSET: [BANK]
- - PKPASET: [BANK]
- - PZAPSET: [BANK]
- - QWOP: [BADD]
- - SCRF: [BANK]
- - TKEY: [BADD]
- - UPDAYB: [CURY]
- - USXBKI: [XLOG]
+ - OFAX: [CHKS, FCHK, FPAY, HOUT, ORDS, PAYS, RECS, RPAY, XLOG]          // and so on
 
 **************************************************************************************
 
@@ -547,85 +430,7 @@ Used by 85 programs:
  - BUSY: [AMTS, CHKS, EXPS, FCHK, FEXP, FMIS, FPAY, MISC, ORDS, PAYS, RECS, RPAY, TERM, XLOG]
  - TESTKK: [BANK, BTOC, CARR, CMIF, CTOB, FMIF, FPAY, HOLI, MICY, SDSI, SIGN, STAT, TERM, XLOG]
  - PAAUTX: [CHKS, EXPS, FCHK, FEXP, FMIS, FPAY, MISC, ORDS, PAYS, RECS, RPAY, STAT]
- - CMIP: [AMTS, BANK, CMIF, ERRS, MESS, MICY, PAYS, RECS, RPTS]
- - BCS: [BANK, CHKS, EXPS, ORDS, PAYS, RECS, SIGN, TERM]
- - DSERRS: [CMIF, ERRS, FMIF, MESS, MICY, RPTS, SMIF]
- - BFUN: [AMTS, HOLI, PAYS, RECS, SIGN, STAT]
- - MATCHX: [EXPS, FEXP, FPAY, MATX, PAYS, RECS]
- - MATOFF: [EXPS, FEXP, FPAY, PAYS, RECS, SREC]
- - ROLL: [BANK, CMIF, EXPS, MICY, PAYS, RECS]
- - SOFA: [CHKS, CURY, FPAY, HOUT, PAYS, SREC]
- - SREL: [CARR, CURY, SDSI, SIGN, SMOF, XLOG]
- - SWFANE: [CHKS, EXPS, MICY, PAYS, RECS, SREC]
- - ACUSTA: [CHKS, PAYS, RECS, STAT, XLOG]
- - BFIL: [BADD, BANK, CURY, SIGN, TERM]
- - DIP: [BANK, ERRS, MESS, MICY, RPTS]
- - FANDEX: [CURY, EXPS, PAYS, RECS, SREC]
- - AUTB: [BADD, BANK, CMIF, MICY]
- - AUTM: [EXPS, MATX, PAYS, RECS]
- - AUTREC: [CMIF, MICY, PAYS, RECS]
- - DSLINS: [BADD, BANK, CURY, SREC]
- - FELOAD: [CARR, CURY, FMIF, HOLI]
- - FRBC: [BANK, CTOB, FPAY, MICY]
- - MATCHS: [EXPS, PAYS, RECS, SREC]
- - MESL: [BANK, CMIF, MESS, MICY]
- - WRTMSG: [CURY, ORDS, SIGN, TERM]
- - BCOM: [AMTS, CTOB, SREC]
- - DAIN: [CMIF, ERRS, MICY]
- - DCHP: [CMIF, MICY, PAYS]
- - DSBLXS: [BADD, BANK, MICY]
- - DSUSER: [MISC, SIGN, TERM]
- - F2DISP: [BANK, RPAY, TERM]
- - FRRN: [BTOC, CTOB, TERM]
- - LREL: [CARR, MICY, XLOG]
- - MLOL: [MICY, RECS, RPTS]
- - PAYS: [CURY, SIGN, STAT]
- - RPPAYM: [CURY, MICY, RPAY]
- - SCON: [BADD, BANK, MICY]
- - SIGL: [SDSI, SIGN, TERM]
- - WARC: [MATX, SREC, XLOG]
- - ZAP: [BTOC, CTOB, TERM]
- - AUTHER: [SIGN, TERM]
- - CAPDES: [TERM, XLOG]
- - DEIN: [CMIF, MICY]
- - DSEC: [FMIF, MICY]
- - FEIN: [FMIF, MICY]
- - KY025XL: [CURY, HOLI]
- - KY050XL: [HOLI, XLOG]
- - KY197XL: [CMIF, MICY]
- - LCON: [BADD, TERM]
- - MC25: [MICY, SMIF]
- - MCCH: [CMIF, MICY]
- - NYCH: [PAYS, STAT]
- - POAACT: [AMTS, MICY]
- - QCIP: [CMIF, MICY]
- - QCOP: [CMOF, MICY]
- - SCBT: [SIGN, XLOG]
- - SETREL: [RPAY, SREC]
- - SIOF: [SIGN, TERM]
- - SION: [SIGN, TERM]
- - SM25: [MICY, SMIF]
- - TOACCT: [AMTS, MICY]
- - BSPT: [TERM]
- - CKDATE: [HOLI]
- - DASR: [MICY]
- - DOUT: [MICY]
- - DREL: [MICY]
- - DSMICY: [MICY]
- - FEDS: [SIGN]
- - FRBL: [MICY]
- - ISAUTX: [STAT]
- - KY008XL: [MICY]
- - KY016XL: [SIGN]
- - LEIN: [MICY]
- - LREQ: [MICY]
- - MCTX: [MICY]
- - MICOPY: [MICY]
- - MSCBLD: [SDSI]
- - NOEL: [TERM]
- - QTIP: [MICY]
- - QTOP: [MICY]
- - TIMEX: [TERM]
+ - CMIP: [AMTS, BANK, CMIF, ERRS, MESS, MICY, PAYS, RECS, RPTS]         // and so on
 
 **************************************************************************************
 
@@ -635,62 +440,7 @@ Used by 60 programs:
  - QOLP: [CAMS, CARR, CHKS, EXPS, FCHK, FEXP, FMIS, FPAY, MATX, MISC, PAYS, SREC, XLOG]
  - FIP: [AMTS, ARCH, BANK, CAMS, ERRS, FMIF, MESS, MICY, PAYS, RECS, RPTS, SMIF]
  - ARKEYS: [ARCH, CARR, CHKS, EXPS, LOGG, MISC, ORDS, PAYS, RECS, SREC, XLOG]
- - ARSTOR: [ARCH, CARR, CHKS, EXPS, LOGG, MISC, ORDS, PAYS, RECS, SREC, XLOG]
- - DSPAYS: [ARCH, BANK, CHKS, FCHK, FMIS, FPAY, MISC, PAYS, RPAY]
- - REOFAC: [AMTS, CAMS, CARR, CHKS, FEXP, FPAY, PAYS, RECS, XLOG]
- - DSALOG: [ARCH, CHKS, EXPS, FCHK, FEXP, FPAY, PAYS, XLOG]
- - SLOL: [ARCH, CHKS, EXPS, FCHK, FEXP, FPAY, PAYS, SORT]
- - VALGEN: [ARCH, BADD, BANK, CAMS, CURY, PAYS, RECS, RPTS]
- - ADVP: [ARCH, CHKS, EXPS, MISC, PAYS, RECS, SREC]
- - DSLINI: [BANK, FPAY, PAYS, RECS, SORT, SREC]
- - FENQ: [AMTS, BADD, BANK, CAMS, FMIF, MICY]
- - MYNCHK: [ARCH, CARR, CURY, HOUT, STAT, XLOG]
- - PHOL: [AMTS, CHKS, PAYS, RECS, SORT, SREC]
- - RPTL: [ARCH, BANK, CMIF, MESS, MICY, RPTS]
- - RU13: [BANK, EXPS, FPAY, PAYS, RECS, SORT]
- - SIP: [ARCH, CARR, ERRS, MICY, SMIF, XLOG]
- - AUTP: [BTOC, CAMS, CTOB, FPAY, RINX]
- - DSMESS: [ARCH, BANK, CMIF, FMIF, MESS]
- - TIP: [ARCH, ERRS, MICY, SMIF, XLOG]
- - BCSSTA: [BTOC, CAMS, CTOB, FPAY]
- - DSCARR: [ARCH, CARR, TERM, XLOG]
- - DSEXPS: [ARCH, BANK, EXPS, FEXP]
- - DSXLOG: [ARCH, CARR, TERM, XLOG]
- - ENQ: [BANK, CAMS, CMIF, PAYS]
- - LINT: [AMTS, BADD, CAMS, MICY]
- - SIRS: [ARCH, CARR, ERRS, XLOG]
- - XMTFED: [ARCH, FMIF, FPAY, MICY]
- - ARCV: [ARCH, BANK, TERM]
- - CACOPY: [ARCH, CARR, XLOG]
- - CLOL: [ARCH, CARR, XLOG]
- - FRETRN: [ARCH, MICY, SREC]
- - PASTAT: [CAMS, CURY, STAT]
- - PAYTOS: [AMTS, CAMS, MICY]
- - R13L: [MICY, SORT, XLOG]
- - SUPP: [ARCH, CURY, SIGN]
- - VALPEC: [BADD, CAMS, CURY]
- - CHKS: [CAMS, SIGN]
- - DSMSGS: [ARCH, TERM]
- - DSRECS: [ARCH, RECS]
- - DSSLOG: [ARCH, TERM]
- - MTOC: [CAMS, CMIF]
- - PBAL: [BANK, SORT]
- - R2DISP: [ARCH, TERM]
- - RPYL: [RPAY, SORT]
- - SECL: [ARCH, MICY]
- - STAL: [SORT, STAT]
- - SWOPCA: [ARCH, RINX]
- - UPXS: [BANK, CAMS]
- - ADJUST: [CAMS]
- - ARCANC: [ARCH]
- - AVSTAT: [CAMS]
- - BUYS: [CAMS]
- - DLSORT: [SORT]
- - KY057XL: [ARCH]
- - PARCSET: [ARCH]
- - PRETRN: [ARCH]
- - SAUL: [SORT]
- - XUSL: [SORT]
+ - ARSTOR: [ARCH, CARR, CHKS, EXPS, LOGG, MISC, ORDS, PAYS, RECS, SREC, XLOG]         // and so on
 
 **************************************************************************************
 
@@ -874,89 +624,7 @@ Programs with no file usage : 87
  - BBHON
  - BOUT
  - BSYS
- - CY515XB
- - DLAYER
- - DPPO
- - DRDO
- - DSLOGG
- - DTEX
- - EBOS
- - FBSCRN
- - FEDISP
- - FEDSET
- - FORKAY
- - FRDISP
- - FRES
- - FX832XB
- - JOHN
- - KCSSTRT
- - KY001XL
- - KY010XL
- - KY051XL
- - KY150DR
- - KY150XL
- - KY160DR
- - KY160XL
- - KY195XL
- - KY196XL
- - KY221XB
- - KY275XL
- - KY660XL
- - KY661XL
- - LINORG
- - LKIN
- - LKSTAT
- - LMACPR
- - LOUT
- - MONYIN
- - MT091XL
- - MT100XL
- - MT490XL
- - OBSCRN
- - ORDS
- - PADISET
- - PBKESET
- - PBSCRN
- - PEBUSET
- - PESUSET
- - PFDISET
- - PFRDSET
- - PMDESET
- - PMDISET
- - PMTISET
- - PNCKPAY
- - PODISET
- - PPDISET
- - PRIISET
- - PRPDSET
- - PRSTAT
- - QFOP
- - R2SCRN
- - RBSCRN
- - REDISP
- - REFERS
- - ROSTAT
- - RPSCRN
- - RTSTAU
- - SAND
- - SDNLON
- - SEGMNT
- - SELL
- - SETRE
- - SNB795O
- - SNB805O
- - SNB820O
- - SNB822O
- - SNB824O
- - SOUT
- - STEV
- - SWIF
- - TESTSET
- - TOKDIS
- - TX230MB
- - UAKS
- - VALTID
- - XSCR
+ - CY515XB         // and so on
 
 **************************************************************************************
 
@@ -971,3 +639,322 @@ Programs with no file usage : 87
   - Never used : 0
 
 Assertion Check Passed: All programs and files are fully accounted.
+
+
+
+******************************************************************************************
+GROUPING OUTPUT FOR ALL SHEETS | FILE USED: 'All_Inventory - Keystone WITHOUT ZEROSTAT.xlsx'
+******************************************************************************************
+
+
+sheet_name = 'CNTL Card' 
+start_col, end_col = 14, 88
+
+OUTPUT: 
+Group 1 (with 68 files): [ACCT, ALOG, AMTM, AMTP, AMTS, BACC, BADD, BANK, BTOC, CAMS, CARR, CHKS, CMIF, CMOF, CTOB, CURY, CUST, DEST, DUPP, ERRS, EXPS, FCHK, FEXP, FMIF, FMIS, FPAY, HIST, HOLI, HOUT, HOUTA, KPAY, KYCMEVC, LNID, LOGG, LOOK, MATX, MESS, MICY, MINC, MISC, MUSE, ORDS, PAYS, RECS, REGI, RINX, RMAS, RMOF, RPAY, RPTS, SACC, SADD, SDSI, SIGN, SLOG, SMIF, SMOF, SMSG, SORT, SREC, STAB, STAT, TERM, TIDS, TTAB, WHAT, XBBH, XLOG]
+Used by 57 programs:
+
+Group 2 (with 1 files): [ARCH]
+Used by 4 programs:
+ - DKL0550B: [ARCH]
+ - DKM0550B: [ARCH]
+ - DKY0550B: [ARCH]
+ - RKY0560A: [ARCH]
+
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Online PGM'
+start_col, end_col = 21, 90
+
+OUTPUT:
+Group 1 (with 28 files): [ACCT, ALOG, AMTS, BADD, BANK, BTOC, CARR, CHKS, CTOB, CURY, DEST, EXPS, FCHK, FEXP, FMIS, FPAY, HIST, HOUT, KPAY, MISC, PAYS, RPAY, SLOG, SMSG, STAB, TIDS, XBBH, XLOG]
+Used by 170 programs:
+
+Group 2 (with 11 files): [CMIF, CMOF, ERRS, FMIF, MESS, ORDS, RECS, RMOF, RPTS, SMIF, SMOF]
+Used by 45 programs:
+
+Group 3 (with 9 files): [CUST, HOLI, MATX, MICY, SDSI, SIGN, SREC, STAT, TERM]
+Used by 91 programs:
+
+Group 4 (with 2 files): [AMTM, AMTP]
+Used by 17 programs:
+
+
+Group 5 (with 2 files): [MUSE, TTAB]
+Used by 12 programs:
+
+
+Group 6 (with 2 files): [SACC, WHAT]
+Used by 8 programs:
+
+
+Group 7 (with 1 files): [LOGG]
+Used by 3 programs:
+
+
+Group 8 (with 1 files): [RINX]
+Used by 8 programs:
+
+
+
+Group 9 (with 1 files): [CAMS]
+Used by 16 programs:
+
+
+Group 10 (with 1 files): [ARCH]
+Used by 32 programs:
+
+
+Group 11 (with 1 files): [SORT]
+Used by 15 programs:
+
+
+Group 12 (with 1 files): [DUPP]
+Used by 3 programs:
+
+
+Group 13 (with 1 files): [BACC]
+Used by 2 programs:
+
+
+Group 14 (with 1 files): [REGI]
+Used by 8 programs:
+
+
+Group 15 (with 1 files): [SADD]
+Used by 28 programs:
+
+
+Group 16 (with 1 files): [LOOK]
+Used by 4 programs:
+ - VUPD: [ALOG, ARCH, DUPP, LOOK, MATX, MICY, MUSE, RINX, SLOG, SORT, SREC, TERM]
+ - LOOKUP: [ACCT, BACC, BADD, BANK, CUST, EXPS, KPAY, LOOK, SADD, SREC, XBBH]
+ - VDUM: [ALOG, DUPP, LOOK, MATX, MICY, MUSE, RINX, SLOG, SORT, SREC, TERM]
+ - CRLOOK1: [ACCT, BADD, BANK, CUST, KPAY, LOOK, SADD]
+
+
+Group 17 (with 1 files): [MINC]
+Used by 2 programs:
+ - DBAUTX: [BANK, CURY, CUST, KPAY, LOGG, MINC, SADD, SDSI, SIGN, SMSG, TERM]
+ - TREL: [ALOG, BADD, CARR, CURY, MICY, MINC, SADD, STAB, XLOG]
+
+
+Group 18 (with 1 files): [LNID]
+Used by 1 programs:
+ - MSOP: [ACCT, DEST, KPAY, LNID, SDSI, SIGN, TERM, TIDS]
+
+
+Group 19 (with 1 files): [HOUTA]
+Used by 2 programs:
+ - OSAUTX: [CARR, HOUT, HOUTA, KPAY, SMSG, XLOG]
+ - MUNBLD: [CARR, HOUT, HOUTA, KPAY]
+
+
+Group 20 (with 1 files): [RMAS]
+Used by 4 programs:
+ - WHOMRU: [ACCT, BADD, CUST, RMAS, TTAB]
+ - FINDAU: [BADD, KPAY, RMAS, TTAB]
+ - MSAU: [KPAY, RMAS, SADD]
+ - IRMA: [KPAY, RMAS]
+
+
+Group 21 (with 1 files): [KYCMEVC]
+Used by 1 programs:
+ - MT490XL: [KPAY, KYCMEVC]
+
+
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Batch PGM'
+start_col, end_col = 14, 67
+
+OUTPUT:
+
+Group 5 (with 3 files): [BTOC, CTOB, RPTS]
+Used by 27 programs:
+ - CRBCSF: [BTOC, CTOB, ERRS, MESS, MISC, RMOF, RPTS, SMIF, SMSG]
+ - DKY411: [ACCT, CTOB, FCHK, FEXP, FPAY, KPAY, MESS, RMOF, SMSG]
+ - DKY410: [CTOB, FCHK, FEXP, FPAY, KPAY, MESS, RMOF, SMSG]
+ - DMT085: [CHKS, CTOB, KPAY, PAYS, RECS]
+ - DKY405: [CTOB, KPAY, MISC, RMOF]         // and so on
+
+
+Group 6 (with 2 files): [SLOG, TIDS]
+Used by 42 programs:
+ - DKY001: [ACCT, KPAY, MESS, RMOF, SLOG, SMIF, SMSG, SREC, TIDS]
+ - DKY026: [FEXP, FPAY, MESS, PAYS, SLOG, SMSG]
+ - DKY021: [CTOB, MESS, SLOG, SMIF, SMSG]
+ - DKY453: [BADD, KPAY, MESS, SLOG, SMSG]
+ - DFX320: [CUST, MESS, SLOG, XLOG]
+ - DKY081: [KPAY, MESS, SLOG, XLOG]         // and so on
+
+
+Group 7 (with 2 files): [CARR, FMIF]
+Used by 4 programs:
+ - DKY510: [CARR, FEXP, FMIF, FPAY, KPAY, MESS, PAYS, RPAY, SMIF]
+ - DKY085: [CHKS, CMIF, FMIF, KPAY, RECS, RMOF, SREC]
+ - DKY455: [BADD, CARR, KPAY, MESS, SMSG, XLOG]
+ - DKY011: [CARR, MESS, XLOG]
+
+
+Group 8 (with 2 files): [CURY, HOLI]
+Used by 23 programs:
+ - NOSHOL: [ACCT, CURY, FEXP, FMIS, FPAY, HOLI, KPAY, MISC, PAYS]
+ - DKY375: [CURY, KPAY, MESS, SLOG, SMSG, XLOG]
+ - RKY611: [ACCT, CURY, CUST, KPAY, MESS, MISC]
+ - DKY320: [CUST, HOLI, KPAY, MESS, MISC]
+ - DKY377: [CURY, KPAY, MESS, SLOG, SMSG]
+ - RKY618: [ACCT, CURY, KPAY, MESS, MISC]
+ - DKY21001: [CURY, CUST, MESS, MISC]
+ - DKY425: [CURY, CUST, MISC]
+ - DKY431: [CURY, MESS, MISC]
+ - DMT091: [ACCT, CURY, PAYS]
+ - DXH020: [HOLI, KPAY, MESS]
+ - DXH101: [HOLI, KPAY, MESS]
+ - DKY400: [CUST, HOLI]
+ - DKY434: [CURY, KPAY]
+ - DKY607: [HOLI, KPAY]
+ - DXH140: [HOLI, KPAY]
+ - RKY025: [HOLI, MESS]
+ - DKY007: [CURY]
+ - DXH022: [HOLI]
+ - RKY026: [HOLI]
+ - RKY027: [HOLI]
+ - RKY028: [HOLI]
+ - RKY029: [HOLI]
+
+
+Group 9 (with 2 files): [RMAS, SADD]
+Used by 13 programs:
+ - DKY100: [ACCT, BADD, CUST, MESS, MISC, RMAS, SADD, SREC]
+ - DKY460: [CARR, KPAY, MESS, SADD, SMSG, XLOG]
+ - RKY853: [ACCT, BADD, MESS, RMAS, SADD, SREC]
+ - DKY338: [KPAY, MESS, SADD, SMIF, SMSG]
+ - RKY851: [CUST, MESS, RMAS, SADD, SREC]
+ - DAM643: [MESS, RMAS, SADD, SREC]
+ - DKY095: [MESS, RMAS, SADD, SREC]
+ - DKY152: [ACCT, BADD, CUST, SADD]
+ - RKY848: [MESS, RMAS, SADD, SREC]
+ - DKY608: [CTOB, RMAS, SREC]
+ - RFX600: [RMAS, SADD, SREC]
+ - RFX100: [CUST, SADD]
+ - RKY939: [MESS, SADD]
+
+
+Group 10 (with 2 files): [ARCH, ORDS]
+Used by 14 programs:
+ - MKY057: [ARCH, KPAY, ORDS, SLOG, SMSG, SREC]
+ - RKY020: [ARCH, MESS, SLOG, SMSG, TIDS]
+ - RKY035: [ARCH, MESS, SLOG, SMSG, TIDS]
+ - RKY300: [ARCH, MESS, SLOG, SMSG, TIDS]
+ - RKY900: [ACCT, CURY, MESS, ORDS, SREC]
+ - MKY101: [CUST, MESS, ORDS, SREC]
+ - MKY102: [CUST, MESS, ORDS, SREC]
+ - RKY862: [BANK, CTOB, ORDS, SREC]
+ - MKY103: [CUST, MESS, ORDS]
+ - RKY105: [CUST, ORDS, SREC]
+ - RKY901: [CTOB, ORDS, SREC]
+ - DKY086: [ORDS, SREC]
+ - RKY100: [ORDS, SREC]
+ - DKY055: [ARCH]
+
+
+Group 11 (with 2 files): [LOOK, WHAT]
+Used by 1 programs:
+ - LDSADD: [CUST, LOOK, MESS, SADD, WHAT]
+
+
+Group 12 (with 1 files): [AMTP]
+Used by 2 programs:
+ - MMATCH: [ACCT, AMTM, AMTP, AMTS, CURY, CUST, HOLI, KPAY]
+ - CRAMTP: [AMTP]
+
+
+Group 13 (with 1 files): [BACC]
+Used by 1 programs:
+ - LDCUST: [ACCT, BACC, CUST, ERRS, KPAY, MESS, XBBH]
+
+
+Group 14 (with 1 files): [BANK]
+Used by 21 programs:
+ - RMT090: [BANK, KPAY, MESS, MISC, PAYS, RECS, SMSG]
+ - WFX150: [BANK, CUST, MISC, RMAS, SADD, SREC]
+ - DKY090: [BACC, BANK, CUST, SADD]
+ - DKY923: [BANK, CTOB, CUST, MESS]
+ - DXH025: [BADD, BANK, CUST, MESS]
+ - DXH035: [BADD, BANK, CUST, MESS]
+ - DXH045: [BADD, BANK, CUST, MESS]
+ - DXH055: [BADD, BANK, CUST, MESS]
+ - DXH075: [BADD, BANK, CUST, MESS]
+ - DXH145: [BADD, BANK, CUST, MESS]
+ - DCM354: [BANK, MESS, SADD]
+ - DKY907: [BANK, MESS, SADD]
+ - DXH907: [BANK, MESS, SADD]
+ - RKY838: [BANK, CTOB, FPAY]
+ - RKY861: [BANK, CTOB, RPAY]
+ - DKY523: [BANK, MESS]
+ - DKY524: [BANK, MESS]
+ - RKY834: [BANK, MESS]
+ - DKY521: [BANK]
+ - DKY603: [BANK]
+ - RKY836: [BANK]
+
+
+Group 15 (with 1 files): [ALOG]
+Used by 1 programs:
+ - DKY018: [ACCT, ALOG, AMTM, BTOC, MESS, SMIF]
+
+
+Group 16 (with 1 files): [SACC]
+Used by 1 programs:
+ - DKY008: [ACCT, CUST, MESS, SACC]
+
+
+Group 17 (with 1 files): [HIST]
+Used by 2 programs:
+ - DKY180: [ACCT, HIST, KPAY, MESS]
+ - CRHIST: [HIST]
+
+
+Group 18 (with 1 files): [MICY]
+Used by 7 programs:
+ - DKY065: [MESS, MICY, MISC]
+ - DKY063: [MESS, MICY]
+ - DKY062: [MICY]
+ - DKY321: [MICY]
+ - DKY322: [MICY]
+ - DKY327: [MICY]
+ - DKY328: [MICY]
+
+Group 19 (with 1 files): [STAT]
+Used by 3 programs:
+ - STATS: [KPAY, MESS, STAT]
+ - MKY060: [MESS, STAT]
+ - MKY058: [STAT]
+
+
+Group 20 (with 1 files): [MATX]
+Used by 1 programs:
+ - CRMATX: [MATX, SREC]
+
+
+Group 21 (with 1 files): [SIGN]
+Used by 1 programs:
+ - DKY337: [MISC, SIGN]
+
+
+Group 22 (with 1 files): [RINX]
+Used by 1 programs:
+ - CRRINX: [RINX]
+
+
+Group 23 (with 1 files): [SORT]
+Used by 1 programs:
+ - CRSORT: [SORT]
+
+
+Group 24 (with 1 files): [STAB]
+Used by 1 programs:
+ - KY162XB: [STAB]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
