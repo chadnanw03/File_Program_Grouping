@@ -1,3 +1,5 @@
+** GROUPING FOR ALL SHEETS IS UPLOADED STARTING LINE NO 740
+
 File Name: All_Inventory - Keystone Medium.xlsx
 Sheet Name: Online PGM
 Start-End Column: (1, 61)
@@ -633,89 +635,7 @@ Programs with no file usage : 87
  - BBHON
  - BOUT
  - BSYS
- - CY515XB
- - DLAYER
- - DPPO
- - DRDO
- - DSLOGG
- - DTEX
- - EBOS
- - FBSCRN
- - FEDISP
- - FEDSET
- - FORKAY
- - FRDISP
- - FRES
- - FX832XB
- - JOHN
- - KCSSTRT
- - KY001XL
- - KY010XL
- - KY051XL
- - KY150DR
- - KY150XL
- - KY160DR
- - KY160XL
- - KY195XL
- - KY196XL
- - KY221XB
- - KY275XL
- - KY660XL
- - KY661XL
- - LINORG
- - LKIN
- - LKSTAT
- - LMACPR
- - LOUT
- - MONYIN
- - MT091XL
- - MT100XL
- - MT490XL
- - OBSCRN
- - ORDS
- - PADISET
- - PBKESET
- - PBSCRN
- - PEBUSET
- - PESUSET
- - PFDISET
- - PFRDSET
- - PMDESET
- - PMDISET
- - PMTISET
- - PNCKPAY
- - PODISET
- - PPDISET
- - PRIISET
- - PRPDSET
- - PRSTAT
- - QFOP
- - R2SCRN
- - RBSCRN
- - REDISP
- - REFERS
- - ROSTAT
- - RPSCRN
- - RTSTAU
- - SAND
- - SDNLON
- - SEGMNT
- - SELL
- - SETRE
- - SNB795O
- - SNB805O
- - SNB820O
- - SNB822O
- - SNB824O
- - SOUT
- - STEV
- - SWIF
- - TESTSET
- - TOKDIS
- - TX230MB
- - UAKS
- - VALTID
- - XSCR
+ - CY515XB // and so on
 
 ******************************************************************************************
 
@@ -730,3 +650,116 @@ Programs with no file usage : 87
   - Never used : 0
 
 Assertion Check Passed: All programs and files are fully accounted.
+
+
+
+
+
+******************************************************************************************
+GROUPING OUTPUT FOR ALL SHEETS | FILE USED: 'All_Inventory - Keystone WITHOUT ZEROSTAT.xlsx'
+******************************************************************************************
+
+sheet_name = 'CNTL Card' 
+start_col, end_col = 14, 88
+
+OUTPUT: 
+Group 1: 68 Files
+['ACCT', 'ALOG', 'AMTM', 'AMTP', 'AMTS', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'CUST', 'DEST', 'DUPP', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'KPAY', 'LOGG', 'LOOK', 'MATX', 'MESS', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS', 'REGI', 'RINX', 'RMAS', 'RMOF', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SDSI', 'SIGN', 'SLOG', 'SMIF', 'SMOF', 'SMSG', 'SORT', 'SREC', 'STAB', 'STAT', 'TERM', 'TIDS', 'TTAB', 'WHAT', 'XBBH', 'XLOG', 'FMIF', 'HOUTA', 'KYCMEVC', 'LNID']
+
+57 Programs using ONLY the above 68 files:
+['DKL00040', 'DKL00501', 'DKL0060A', 'DKL01304', 'DKL01500', 'DKL03100', 'DKL05000', 'DKL06000', 'DKL0740A', 'DKL07500', 'DKL0810A', 'DKL51550', 'DKM00040', 'DKM00501', 'DKM0060A', 'DKM01304', 'DKM01500', 'DKM03100', 'DKM05000', 'DKM06000', 'DKM0740A', 'DKM07500', 'DKM0810A', 'DKM51550', 'DKY00040', 'DKY00501', 'DKY0060A', 'DKY01304', 'DKY01500', 'DKY03100', 'DKY05000', 'DKY06000', 'DKY0740A', 'DKY07500', 'DKY0810A', 'DKY20000', 'DKY51550', 'KEYSDMP', 'KEYSDUMP', 'MKL05900', 'MKM05900', 'MKY05900', 'RKY00240', 'RKY01500', 'RKY0150A', 'RKY02400', 'RKY03200', 'RKY0320A', 'RKY03300', 'RKY0330A', 'RKY05100', 'RKY0510A', 'RKY05200', 'RKY0540A', 'WKL05000', 'WKM05000', 'WKY05000']
+
+Group 2: 1 Files
+Newly added files = ['ARCH']
+['ARCH']
+4 Programs using ONLY the above 1 files:
+['DKL0550B', 'DKM0550B', 'DKY0550B', 'RKY0560A']
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Online PGM'
+start_col, end_col = 21, 90
+
+OUTPUT:
+Group 1: 69 Files
+['KPAY', 'ACCT', 'ALOG', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CMOF', 'CTOB', 'CURY', 'CUST', 'DEST', 'DUPP', 'ERRS', 'EXPS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'HOUT', 'LOGG', 'LOOK', 'MATX', 'MESS', 'MICY', 'MINC', 'MISC', 'MUSE', 'ORDS', 'PAYS', 'RECS', 'REGI', 'RINX', 'RMAS', 'RMOF', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SDSI', 'SIGN', 'SLOG', 'SMIF', 'SMOF', 'SMSG', 'SORT', 'SREC', 'STAB', 'STAT', 'TERM', 'TIDS', 'TTAB', 'WHAT', 'XBBH', 'XLOG', 'FMIF', 'LNID', 'HOUTA', 'KYCMEVC']
+
+472 Programs using ONLY the above 69 files:
+// prints all programs in the sheet
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+sheet_name = 'Batch PGM'  # can change sheet name
+start_col, end_col = 14, 67
+
+OUTPUT:
+Group 1: 45 Files
+['MESS', 'ACCT', 'ALOG', 'AMTM', 'ARCH', 'BACC', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CARR', 'CMIF', 'CTOB', 'CURY', 'CUST', 'DEST', 'ERRS', 'FCHK', 'FEXP', 'FPAY', 'HIST', 'HOLI', 'KPAY', 'LOOK', 'MICY', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RMAS', 'RMOF', 'RPAY', 'RPTS', 'SACC', 'SADD', 'SLOG', 'SMIF', 'SMSG', 'SREC', 'STAT', 'TIDS', 'WHAT', 'XBBH', 'XLOG', 'FMIF']
+
+381 Programs using ONLY the above 45 files:
+['CHGKY275', 'CRAMTM', 'CRBCSF', 'CRCAMS', 'CRHIST', 'CRSLOG', 'CRSREC', 'CRXLOG', 'DAM200', 'DAM297', 'DAM300', 'DAM643', 'DAM703', 'DCM200', 'DCM354', 'DCO200', 'DCS320', 'DFX320', 'DFX325', 'DGT397', 'DKL001', 'DKL280', 'DKL281', 'DKL440', 'DKM001', 'DKY000', 'DKY001', 'DKY005', 'DKY006', 'DKY007', 'DKY008', 'DKY009', 'DKY011', 'DKY013', 'DKY014', 'DKY015', 'DKY016', 'DKY017', 'DKY018', 'DKY021', 'DKY026', 'DKY036', 'DKY055', 'DKY062', 'DKY063', 'DKY065', 'DKY066', 'DKY071', 'DKY072', 'DKY075', 'DKY081', 'DKY086', 'DKY087', 'DKY088', 'DKY089', 'DKY090', 'DKY091', 'DKY095', 'DKY100', 'DKY110', 'DKY120', 'DKY130', 'DKY141', 'DKY150', 'DKY151', 'DKY152', 'DKY180', 'DKY181', 'DKY21001', 'DKY21002', 'DKY21003', 'DKY21098', 'DKY21099', 'DKY215', 'DKY218', 'DKY219', 'DKY220', 'DKY221', 'DKY222', 'DKY223', 'DKY225', 'DKY226', 'DKY227', 'DKY228', 'DKY270', 'DKY275', 'DKY276', 'DKY277', 'DKY278', 'DKY280', 'DKY281', 'DKY282', 'DKY310', 'DKY318', 'DKY319', 'DKY320', 'DKY321', 'DKY322', 'DKY324', 'DKY325', 'DKY326', 'DKY327', 'DKY328', 'DKY329', 'DKY330', 'DKY331', 'DKY332', 'DKY335', 'DKY336', 'DKY338', 'DKY345', 'DKY350', 'DKY355', 'DKY359', 'DKY360', 'DKY361', 'DKY362', 'DKY363', 'DKY364', 'DKY365', 'DKY366', 'DKY367', 'DKY368', 'DKY369', 'DKY370', 'DKY371', 'DKY372', 'DKY373', 'DKY374', 'DKY375', 'DKY376', 'DKY377', 'DKY378', 'DKY381', 'DKY382', 'DKY383', 'DKY390', 'DKY391', 'DKY392', 'DKY393', 'DKY395', 'DKY400', 'DKY404', 'DKY405', 'DKY406', 'DKY407', 'DKY408', 'DKY410', 'DKY411', 'DKY420', 'DKY421', 'DKY425', 'DKY426', 'DKY427', 'DKY428', 'DKY431', 'DKY434', 'DKY436', 'DKY437', 'DKY438', 'DKY439', 'DKY440', 'DKY451', 'DKY452', 'DKY453', 'DKY454', 'DKY455', 'DKY456', 'DKY460', 'DKY461', 'DKY465', 'DKY470', 'DKY472', 'DKY474', 'DKY475', 'DKY476', 'DKY477', 'DKY478', 'DKY479', 'DKY480', 'DKY501', 'DKY502', 'DKY503', 'DKY504', 'DKY510', 'DKY511', 'DKY512', 'DKY514', 'DKY516', 'DKY520', 'DKY521', 'DKY523', 'DKY524', 'DKY525', 'DKY526', 'DKY527', 'DKY551', 'DKY552', 'DKY553', 'DKY554', 'DKY600', 'DKY601', 'DKY603', 'DKY606', 'DKY607', 'DKY608', 'DKY609', 'DKY630', 'DKY631', 'DKY632', 'DKY633', 'DKY659', 'DKY660', 'DKY680', 'DKY705', 'DKY715', 'DKY720', 'DKY750', 'DKY800', 'DKY901', 'DKY903', 'DKY907', 'DKY908', 'DKY909', 'DKY920', 'DKY921', 'DKY923', 'DKY924', 'DKY929', 'DKY950', 'DKY951', 'DKY952', 'DKY991', 'DKY992', 'DKY994', 'DKY996', 'DMB035', 'DMT080', 'DMT091', 'DMT095', 'DMT098', 'DMT099', 'DMT100', 'DMT101', 'DMT103', 'DMT910', 'DMT911', 'DMT920', 'DPZ200', 'DXH020', 'DXH022', 'DXH025', 'DXH035', 'DXH045', 'DXH055', 'DXH075', 'DXH101', 'DXH140', 'DXH145', 'DXH907', 'LDCUST', 'LDSADD', 'MAKPAY', 'MKY057', 'MKY058', 'MKY060', 'MKY061', 'MKY101', 'MKY102', 'MKY103', 'MKY108', 'MKY109', 'MKY222', 'MKY223', 'MKY227', 'MKY228', 'MTX050', 'MTX100', 'MTX140', 'MTX142', 'MTX150', 'MTX160', 'MTX166', 'MTX180', 'MTX220', 'MTX290', 'MTX400', 'MTX402', 'MTX406', 'MTX407', 'MTX408', 'MTX409', 'MTX410', 'MTX420', 'MTX425', 'MTX428', 'MTX430', 'MTX500', 'MTX510', 'MTX570', 'MTX605', 'RAM206', 'RAM297', 'RFX100', 'RFX600', 'RKY020', 'RKY021', 'RKY022', 'RKY025', 'RKY026', 'RKY027', 'RKY028', 'RKY029', 'RKY035', 'RKY036', 'RKY040', 'RKY041', 'RKY043', 'RKY057', 'RKY075', 'RKY076', 'RKY077', 'RKY078', 'RKY080', 'RKY081', 'RKY085', 'RKY089', 'RKY098', 'RKY099', 'RKY100', 'RKY105', 'RKY300', 'RKY311', 'RKY422', 'RKY528', 'RKY610', 'RKY611', 'RKY612', 'RKY613', 'RKY617', 'RKY618', 'RKY619', 'RKY620', 'RKY730', 'RKY731', 'RKY732', 'RKY733', 'RKY737', 'RKY738', 'RKY739', 'RKY740', 'RKY800', 'RKY820', 'RKY834', 'RKY836', 'RKY838', 'RKY848', 'RKY849', 'RKY851', 'RKY853', 'RKY855', 'RKY859', 'RKY860', 'RKY861', 'RKY862', 'RKY863', 'RKY881', 'RKY883', 'RKY885', 'RKY886', 'RKY900', 'RKY901', 'RKY939', 'RKYFSOFT', 'RLC500', 'RLC501', 'RLC502', 'RMT090', 'RTX131', 'STATS', 'WFX150']
+
+
+Group 2: 41 Files
+
+Newly added files = ['AMTP', 'AMTS', 'CHKS', 'FMIS']
+
+['KPAY', 'ACCT', 'AMTM', 'AMTP', 'AMTS', 'ARCH', 'BACC', 'BADD', 'BANK', 'CAMS', 'CARR', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'CUST', 'DEST', 'ERRS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HIST', 'HOLI', 'MESS', 'MISC', 'ORDS', 'PAYS', 'RECS', 'RMOF', 'RPAY', 'SADD', 'SLOG', 'SMIF', 'SMSG', 'SREC', 'STAT', 'TIDS', 'XBBH', 'XLOG', 'FMIF']
+
+12 Programs using ONLY the above 41 files:
+['CRAMTP', 'CRAMTS', 'DKY070', 'DKY082', 'DKY084', 'DKY085', 'DKY500', 'DMT085', 'MMATCH', 'NOSHOL', 'RKY001', 'RKY805']
+
+
+Group 3: 34 Files
+
+Newly added files = ['SIGN']
+
+['MISC', 'ACCT', 'AMTM', 'AMTS', 'BADD', 'BANK', 'BTOC', 'CAMS', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'CUST', 'DEST', 'ERRS', 'FCHK', 'FEXP', 'FMIS', 'FPAY', 'HOLI', 'KPAY', 'MESS', 'MICY', 'PAYS', 'RECS', 'RMAS', 'RMOF', 'RPTS', 'SADD', 'SIGN', 'SMIF', 'SMSG', 'SREC', 'XLOG']
+
+1 Programs using ONLY the above 34 files:
+['DKY337']
+
+
+Group 4: 28 Files
+
+Newly added files = ['MATX']
+
+['SREC', 'ACCT', 'ARCH', 'BADD', 'BANK', 'CAMS', 'CHKS', 'CMIF', 'CTOB', 'CURY', 'CUST', 'DEST', 'ERRS', 'KPAY', 'MATX', 'MESS', 'MISC', 'ORDS', 'RECS', 'RMAS', 'RMOF', 'SADD', 'SLOG', 'SMIF', 'SMSG', 'TIDS', 'XLOG', 'FMIF']
+
+1 Programs using ONLY the above 28 files:
+['CRMATX']
+
+
+Group 5: 1 Files
+
+Newly added files = ['RINX']
+
+['RINX']
+
+1 Programs using ONLY the above 1 files:
+['CRRINX']
+
+
+Group 6: 1 Files
+
+Newly added files = ['SORT']
+
+['SORT']
+
+1 Programs using ONLY the above 1 files:
+['CRSORT']
+
+
+Group 7: 1 Files
+
+Newly added files = ['STAB']
+
+['STAB']
+
+1 Programs using ONLY the above 1 files:
+['KY162XB']
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
